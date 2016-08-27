@@ -1,0 +1,7 @@
+// 설정을 이 파일에 넣어서 기본 설정과 사용자 설정을 덮어씁니다.
+{
+        // Tab 키를 누를 때 공백을 삽입합니다.
+    "editor.insertSpaces": true,
+    // 파일을 열면 파일 콘텐츠를 기반으로 하여 'editor.tabSize'와 'editor.insertSpaces'가 검색됩니다.
+    "editor.detectIndentation": true
+}

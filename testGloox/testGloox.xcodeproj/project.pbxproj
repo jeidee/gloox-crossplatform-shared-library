@@ -15,6 +15,11 @@
 		60E209441D7197780050FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E209431D7197780050FAAB /* Assets.xcassets */; };
 		60E209471D7197780050FAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E209451D7197780050FAAB /* LaunchScreen.storyboard */; };
 		60E20AB01D719E5D0050FAAB /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E20AAF1D719E5D0050FAAB /* libgloox.a */; };
+		60E20AC71D719FE10050FAAB /* MsgClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E20AC31D719FE10050FAAB /* MsgClient.cpp */; };
+		60E20ACB1D71A0D90050FAAB /* TalkClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E20AC91D71A0D90050FAAB /* TalkClient.cpp */; };
+		60E20ACF1D71A1420050FAAB /* BackoffManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E20ACD1D71A1420050FAAB /* BackoffManager.cpp */; };
+		60E20AD31D71A1630050FAAB /* CachedInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E20AD11D71A1630050FAAB /* CachedInfo.cpp */; };
+		60E20AD61D71A1860050FAAB /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E20AD41D71A1860050FAAB /* Util.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +201,19 @@
 		60E20AAC1D719E5D0050FAAB /* vcardupdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vcardupdate.h; sourceTree = "<group>"; };
 		60E20AAD1D719E5D0050FAAB /* xhtmlim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xhtmlim.h; sourceTree = "<group>"; };
 		60E20AAF1D719E5D0050FAAB /* libgloox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgloox.a; sourceTree = "<group>"; };
+		60E20AC21D719FE10050FAAB /* IMsgCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMsgCallback.h; sourceTree = "<group>"; };
+		60E20AC31D719FE10050FAAB /* MsgClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MsgClient.cpp; sourceTree = "<group>"; };
+		60E20AC41D719FE10050FAAB /* MsgClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgClient.h; sourceTree = "<group>"; };
+		60E20AC91D71A0D90050FAAB /* TalkClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkClient.cpp; sourceTree = "<group>"; };
+		60E20ACA1D71A0D90050FAAB /* TalkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkClient.h; sourceTree = "<group>"; };
+		60E20ACC1D71A0F30050FAAB /* SingletonHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonHolder.h; sourceTree = "<group>"; };
+		60E20ACD1D71A1420050FAAB /* BackoffManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BackoffManager.cpp; sourceTree = "<group>"; };
+		60E20ACE1D71A1420050FAAB /* BackoffManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackoffManager.h; sourceTree = "<group>"; };
+		60E20AD01D71A1550050FAAB /* TalkClientEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkClientEventHandler.h; sourceTree = "<group>"; };
+		60E20AD11D71A1630050FAAB /* CachedInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CachedInfo.cpp; sourceTree = "<group>"; };
+		60E20AD21D71A1630050FAAB /* CachedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedInfo.h; sourceTree = "<group>"; };
+		60E20AD41D71A1860050FAAB /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		60E20AD51D71A1860050FAAB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +233,7 @@
 			children = (
 				60E209331D7197780050FAAB /* testGloox */,
 				60E209321D7197780050FAAB /* Products */,
+				60E20AC11D719FE10050FAAB /* gloox-wrapper */,
 				60E20A051D719E5D0050FAAB /* gloox */,
 			);
 			sourceTree = "<group>";
@@ -450,6 +469,26 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		60E20AC11D719FE10050FAAB /* gloox-wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				60E20AC21D719FE10050FAAB /* IMsgCallback.h */,
+				60E20AC91D71A0D90050FAAB /* TalkClient.cpp */,
+				60E20AD41D71A1860050FAAB /* Util.cpp */,
+				60E20AD51D71A1860050FAAB /* Util.h */,
+				60E20ACA1D71A0D90050FAAB /* TalkClient.h */,
+				60E20AD01D71A1550050FAAB /* TalkClientEventHandler.h */,
+				60E20AD11D71A1630050FAAB /* CachedInfo.cpp */,
+				60E20AD21D71A1630050FAAB /* CachedInfo.h */,
+				60E20ACD1D71A1420050FAAB /* BackoffManager.cpp */,
+				60E20ACE1D71A1420050FAAB /* BackoffManager.h */,
+				60E20ACC1D71A0F30050FAAB /* SingletonHolder.h */,
+				60E20AC31D719FE10050FAAB /* MsgClient.cpp */,
+				60E20AC41D719FE10050FAAB /* MsgClient.h */,
+			);
+			path = "gloox-wrapper";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -520,10 +559,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E20AC71D719FE10050FAAB /* MsgClient.cpp in Sources */,
 				60E2093C1D7197780050FAAB /* ViewController.mm in Sources */,
+				60E20ACF1D71A1420050FAAB /* BackoffManager.cpp in Sources */,
 				60E209391D7197780050FAAB /* AppDelegate.m in Sources */,
+				60E20AD31D71A1630050FAAB /* CachedInfo.cpp in Sources */,
 				60E209361D7197780050FAAB /* main.m in Sources */,
 				60E209421D7197780050FAAB /* testGloox.xcdatamodeld in Sources */,
+				60E20ACB1D71A0D90050FAAB /* TalkClient.cpp in Sources */,
+				60E20AD61D71A1860050FAAB /* Util.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +679,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/gloox/include";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/gloox/include",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = testGloox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -652,7 +699,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/gloox/include";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/gloox/include",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = testGloox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
