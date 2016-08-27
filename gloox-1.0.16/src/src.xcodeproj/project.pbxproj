@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		6092DC731D70197F00562BD0 /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		6092DC741D70197F00562BD0 /* .libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .libs; sourceTree = "<group>"; };
+		6092DC751D70197F00562BD0 /* adhoc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = adhoc.cpp; sourceTree = "<group>"; };
+		6092DC761D70197F00562BD0 /* adhoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adhoc.h; sourceTree = "<group>"; };
+		6092DC771D70197F00562BD0 /* adhoc.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = adhoc.lo; sourceTree = "<group>"; };
+		6092DC781D70197F00562BD0 /* adhoc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = adhoc.o; sourceTree = "<group>"; };
+		6092DC791D70197F00562BD0 /* adhoccommandprovider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adhoccommandprovider.h; sourceTree = "<group>"; };
+		6092DC7A1D70197F00562BD0 /* adhochandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adhochandler.h; sourceTree = "<group>"; };
+		6092DC7B1D70197F00562BD0 /* adhocplugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adhocplugin.h; sourceTree = "<group>"; };
+		6092DC7C1D70197F00562BD0 /* amp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = amp.cpp; sourceTree = "<group>"; };
+		6092DC7D1D70197F00562BD0 /* amp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = amp.h; sourceTree = "<group>"; };
+		6092DC7E1D70197F00562BD0 /* amp.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = amp.lo; sourceTree = "<group>"; };
+		6092DC7F1D70197F00562BD0 /* amp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = amp.o; sourceTree = "<group>"; };
+		6092DC801D70197F00562BD0 /* annotations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = annotations.cpp; sourceTree = "<group>"; };
+		6092DC811D70197F00562BD0 /* annotations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = annotations.h; sourceTree = "<group>"; };
+		6092DC821D70197F00562BD0 /* annotations.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = annotations.lo; sourceTree = "<group>"; };
+		6092DC831D70197F00562BD0 /* annotations.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = annotations.o; sourceTree = "<group>"; };
+		6092DC841D70197F00562BD0 /* annotationshandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = annotationshandler.h; sourceTree = "<group>"; };
+		6092DC851D70197F00562BD0 /* atomicrefcount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atomicrefcount.cpp; sourceTree = "<group>"; };
+		6092DC861D70197F00562BD0 /* atomicrefcount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = atomicrefcount.h; sourceTree = "<group>"; };
+		6092DC871D70197F00562BD0 /* atomicrefcount.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = atomicrefcount.lo; sourceTree = "<group>"; };
+		6092DC881D70197F00562BD0 /* atomicrefcount.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = atomicrefcount.o; sourceTree = "<group>"; };
+		6092DC891D70197F00562BD0 /* attention.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = attention.cpp; sourceTree = "<group>"; };
+		6092DC8A1D70197F00562BD0 /* attention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = attention.h; sourceTree = "<group>"; };
+		6092DC8B1D70197F00562BD0 /* attention.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = attention.lo; sourceTree = "<group>"; };
+		6092DC8C1D70197F00562BD0 /* attention.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = attention.o; sourceTree = "<group>"; };
+		6092DC8D1D70197F00562BD0 /* base64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = base64.cpp; sourceTree = "<group>"; };
+		6092DC8E1D70197F00562BD0 /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		6092DC8F1D70197F00562BD0 /* base64.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = base64.lo; sourceTree = "<group>"; };
+		6092DC901D70197F00562BD0 /* base64.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = base64.o; sourceTree = "<group>"; };
+		6092DC911D70197F00562BD0 /* bookmarkhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bookmarkhandler.h; sourceTree = "<group>"; };
+		6092DC921D70197F00562BD0 /* bookmarkstorage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bookmarkstorage.cpp; sourceTree = "<group>"; };
+		6092DC931D70197F00562BD0 /* bookmarkstorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bookmarkstorage.h; sourceTree = "<group>"; };
+		6092DC941D70197F00562BD0 /* bookmarkstorage.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = bookmarkstorage.lo; sourceTree = "<group>"; };
+		6092DC951D70197F00562BD0 /* bookmarkstorage.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bookmarkstorage.o; sourceTree = "<group>"; };
+		6092DC961D70197F00562BD0 /* bytestream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bytestream.h; sourceTree = "<group>"; };
+		6092DC971D70197F00562BD0 /* bytestreamdatahandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bytestreamdatahandler.h; sourceTree = "<group>"; };
+		6092DC981D70197F00562BD0 /* bytestreamhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bytestreamhandler.h; sourceTree = "<group>"; };
+		6092DC991D70197F00562BD0 /* capabilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = capabilities.cpp; sourceTree = "<group>"; };
+		6092DC9A1D70197F00562BD0 /* capabilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = capabilities.h; sourceTree = "<group>"; };
+		6092DC9B1D70197F00562BD0 /* capabilities.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = capabilities.lo; sourceTree = "<group>"; };
+		6092DC9C1D70197F00562BD0 /* capabilities.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = capabilities.o; sourceTree = "<group>"; };
+		6092DC9D1D70197F00562BD0 /* carbons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = carbons.cpp; sourceTree = "<group>"; };
+		6092DC9E1D70197F00562BD0 /* carbons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = carbons.h; sourceTree = "<group>"; };
+		6092DC9F1D70197F00562BD0 /* carbons.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = carbons.lo; sourceTree = "<group>"; };
+		6092DCA01D70197F00562BD0 /* carbons.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = carbons.o; sourceTree = "<group>"; };
+		6092DCA11D70197F00562BD0 /* chatstate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chatstate.cpp; sourceTree = "<group>"; };
+		6092DCA21D70197F00562BD0 /* chatstate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatstate.h; sourceTree = "<group>"; };
+		6092DCA31D70197F00562BD0 /* chatstate.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = chatstate.lo; sourceTree = "<group>"; };
+		6092DCA41D70197F00562BD0 /* chatstate.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = chatstate.o; sourceTree = "<group>"; };
+		6092DCA51D70197F00562BD0 /* chatstatefilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chatstatefilter.cpp; sourceTree = "<group>"; };
+		6092DCA61D70197F00562BD0 /* chatstatefilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatstatefilter.h; sourceTree = "<group>"; };
+		6092DCA71D70197F00562BD0 /* chatstatefilter.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = chatstatefilter.lo; sourceTree = "<group>"; };
+		6092DCA81D70197F00562BD0 /* chatstatefilter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = chatstatefilter.o; sourceTree = "<group>"; };
+		6092DCA91D70197F00562BD0 /* chatstatehandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatstatehandler.h; sourceTree = "<group>"; };
+		6092DCAA1D70197F00562BD0 /* client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
+		6092DCAB1D70197F00562BD0 /* client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		6092DCAC1D70197F00562BD0 /* client.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = client.lo; sourceTree = "<group>"; };
+		6092DCAD1D70197F00562BD0 /* client.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = client.o; sourceTree = "<group>"; };
+		6092DCAE1D70197F00562BD0 /* clientbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clientbase.cpp; sourceTree = "<group>"; };
+		6092DCAF1D70197F00562BD0 /* clientbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clientbase.h; sourceTree = "<group>"; };
+		6092DCB01D70197F00562BD0 /* clientbase.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = clientbase.lo; sourceTree = "<group>"; };
+		6092DCB11D70197F00562BD0 /* clientbase.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = clientbase.o; sourceTree = "<group>"; };
+		6092DCB21D70197F00562BD0 /* component.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = component.cpp; sourceTree = "<group>"; };
+		6092DCB31D70197F00562BD0 /* component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = component.h; sourceTree = "<group>"; };
+		6092DCB41D70197F00562BD0 /* component.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = component.lo; sourceTree = "<group>"; };
+		6092DCB51D70197F00562BD0 /* component.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = component.o; sourceTree = "<group>"; };
+		6092DCB61D70197F00562BD0 /* compressionbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compressionbase.h; sourceTree = "<group>"; };
+		6092DCB71D70197F00562BD0 /* compressiondatahandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compressiondatahandler.h; sourceTree = "<group>"; };
+		6092DCB81D70197F00562BD0 /* compressiondefault.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = compressiondefault.cpp; sourceTree = "<group>"; };
+		6092DCB91D70197F00562BD0 /* compressiondefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compressiondefault.h; sourceTree = "<group>"; };
+		6092DCBA1D70197F00562BD0 /* compressiondefault.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = compressiondefault.lo; sourceTree = "<group>"; };
+		6092DCBB1D70197F00562BD0 /* compressiondefault.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = compressiondefault.o; sourceTree = "<group>"; };
+		6092DCBC1D70197F00562BD0 /* compressionzlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = compressionzlib.cpp; sourceTree = "<group>"; };
+		6092DCBD1D70197F00562BD0 /* compressionzlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compressionzlib.h; sourceTree = "<group>"; };
+		6092DCBE1D70197F00562BD0 /* compressionzlib.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = compressionzlib.lo; sourceTree = "<group>"; };
+		6092DCBF1D70197F00562BD0 /* compressionzlib.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = compressionzlib.o; sourceTree = "<group>"; };
+		6092DCC01D70197F00562BD0 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		6092DCC11D70197F00562BD0 /* connectionbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectionbase.h; sourceTree = "<group>"; };
+		6092DCC21D70197F00562BD0 /* connectionbosh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectionbosh.cpp; sourceTree = "<group>"; };
+		6092DCC31D70197F00562BD0 /* connectionbosh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectionbosh.h; sourceTree = "<group>"; };
+		6092DCC41D70197F00562BD0 /* connectionbosh.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectionbosh.lo; sourceTree = "<group>"; };
+		6092DCC51D70197F00562BD0 /* connectionbosh.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectionbosh.o; sourceTree = "<group>"; };
+		6092DCC61D70197F00562BD0 /* connectiondatahandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectiondatahandler.h; sourceTree = "<group>"; };
+		6092DCC71D70197F00562BD0 /* connectionhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectionhandler.h; sourceTree = "<group>"; };
+		6092DCC81D70197F00562BD0 /* connectionhttpproxy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectionhttpproxy.cpp; sourceTree = "<group>"; };
+		6092DCC91D70197F00562BD0 /* connectionhttpproxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectionhttpproxy.h; sourceTree = "<group>"; };
+		6092DCCA1D70197F00562BD0 /* connectionhttpproxy.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectionhttpproxy.lo; sourceTree = "<group>"; };
+		6092DCCB1D70197F00562BD0 /* connectionhttpproxy.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectionhttpproxy.o; sourceTree = "<group>"; };
+		6092DCCC1D70197F00562BD0 /* connectionlistener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectionlistener.h; sourceTree = "<group>"; };
+		6092DCCD1D70197F00562BD0 /* connectionsocks5proxy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectionsocks5proxy.cpp; sourceTree = "<group>"; };
+		6092DCCE1D70197F00562BD0 /* connectionsocks5proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectionsocks5proxy.h; sourceTree = "<group>"; };
+		6092DCCF1D70197F00562BD0 /* connectionsocks5proxy.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectionsocks5proxy.lo; sourceTree = "<group>"; };
+		6092DCD01D70197F00562BD0 /* connectionsocks5proxy.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectionsocks5proxy.o; sourceTree = "<group>"; };
+		6092DCD11D70197F00562BD0 /* connectiontcpbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectiontcpbase.cpp; sourceTree = "<group>"; };
+		6092DCD21D70197F00562BD0 /* connectiontcpbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectiontcpbase.h; sourceTree = "<group>"; };
+		6092DCD31D70197F00562BD0 /* connectiontcpbase.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectiontcpbase.lo; sourceTree = "<group>"; };
+		6092DCD41D70197F00562BD0 /* connectiontcpbase.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectiontcpbase.o; sourceTree = "<group>"; };
+		6092DCD51D70197F00562BD0 /* connectiontcpclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectiontcpclient.cpp; sourceTree = "<group>"; };
+		6092DCD61D70197F00562BD0 /* connectiontcpclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectiontcpclient.h; sourceTree = "<group>"; };
+		6092DCD71D70197F00562BD0 /* connectiontcpclient.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectiontcpclient.lo; sourceTree = "<group>"; };
+		6092DCD81D70197F00562BD0 /* connectiontcpclient.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectiontcpclient.o; sourceTree = "<group>"; };
+		6092DCD91D70197F00562BD0 /* connectiontcpserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectiontcpserver.cpp; sourceTree = "<group>"; };
+		6092DCDA1D70197F00562BD0 /* connectiontcpserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectiontcpserver.h; sourceTree = "<group>"; };
+		6092DCDB1D70197F00562BD0 /* connectiontcpserver.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectiontcpserver.lo; sourceTree = "<group>"; };
+		6092DCDC1D70197F00562BD0 /* connectiontcpserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectiontcpserver.o; sourceTree = "<group>"; };
+		6092DCDD1D70197F00562BD0 /* connectiontls.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectiontls.cpp; sourceTree = "<group>"; };
+		6092DCDE1D70197F00562BD0 /* connectiontls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectiontls.h; sourceTree = "<group>"; };
+		6092DCDF1D70197F00562BD0 /* connectiontls.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectiontls.lo; sourceTree = "<group>"; };
+		6092DCE01D70197F00562BD0 /* connectiontls.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectiontls.o; sourceTree = "<group>"; };
+		6092DCE11D70197F00562BD0 /* connectiontlsserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectiontlsserver.cpp; sourceTree = "<group>"; };
+		6092DCE21D70197F00562BD0 /* connectiontlsserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectiontlsserver.h; sourceTree = "<group>"; };
+		6092DCE31D70197F00562BD0 /* connectiontlsserver.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = connectiontlsserver.lo; sourceTree = "<group>"; };
+		6092DCE41D70197F00562BD0 /* connectiontlsserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connectiontlsserver.o; sourceTree = "<group>"; };
+		6092DCE51D70197F00562BD0 /* dataform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataform.cpp; sourceTree = "<group>"; };
+		6092DCE61D70197F00562BD0 /* dataform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataform.h; sourceTree = "<group>"; };
+		6092DCE71D70197F00562BD0 /* dataform.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataform.lo; sourceTree = "<group>"; };
+		6092DCE81D70197F00562BD0 /* dataform.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dataform.o; sourceTree = "<group>"; };
+		6092DCE91D70197F00562BD0 /* dataformfield.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataformfield.cpp; sourceTree = "<group>"; };
+		6092DCEA1D70197F00562BD0 /* dataformfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataformfield.h; sourceTree = "<group>"; };
+		6092DCEB1D70197F00562BD0 /* dataformfield.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataformfield.lo; sourceTree = "<group>"; };
+		6092DCEC1D70197F00562BD0 /* dataformfield.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dataformfield.o; sourceTree = "<group>"; };
+		6092DCED1D70197F00562BD0 /* dataformfieldcontainer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataformfieldcontainer.cpp; sourceTree = "<group>"; };
+		6092DCEE1D70197F00562BD0 /* dataformfieldcontainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataformfieldcontainer.h; sourceTree = "<group>"; };
+		6092DCEF1D70197F00562BD0 /* dataformfieldcontainer.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataformfieldcontainer.lo; sourceTree = "<group>"; };
+		6092DCF01D70197F00562BD0 /* dataformfieldcontainer.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dataformfieldcontainer.o; sourceTree = "<group>"; };
+		6092DCF11D70197F00562BD0 /* dataformitem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataformitem.cpp; sourceTree = "<group>"; };
+		6092DCF21D70197F00562BD0 /* dataformitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataformitem.h; sourceTree = "<group>"; };
+		6092DCF31D70197F00562BD0 /* dataformitem.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataformitem.lo; sourceTree = "<group>"; };
+		6092DCF41D70197F00562BD0 /* dataformitem.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dataformitem.o; sourceTree = "<group>"; };
+		6092DCF51D70197F00562BD0 /* dataformreported.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataformreported.cpp; sourceTree = "<group>"; };
+		6092DCF61D70197F00562BD0 /* dataformreported.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataformreported.h; sourceTree = "<group>"; };
+		6092DCF71D70197F00562BD0 /* dataformreported.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dataformreported.lo; sourceTree = "<group>"; };
+		6092DCF81D70197F00562BD0 /* dataformreported.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dataformreported.o; sourceTree = "<group>"; };
+		6092DCF91D70197F00562BD0 /* delayeddelivery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = delayeddelivery.cpp; sourceTree = "<group>"; };
+		6092DCFA1D70197F00562BD0 /* delayeddelivery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delayeddelivery.h; sourceTree = "<group>"; };
+		6092DCFB1D70197F00562BD0 /* delayeddelivery.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = delayeddelivery.lo; sourceTree = "<group>"; };
+		6092DCFC1D70197F00562BD0 /* delayeddelivery.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = delayeddelivery.o; sourceTree = "<group>"; };
+		6092DCFD1D70197F00562BD0 /* disco.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disco.cpp; sourceTree = "<group>"; };
+		6092DCFE1D70197F00562BD0 /* disco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = disco.h; sourceTree = "<group>"; };
+		6092DCFF1D70197F00562BD0 /* disco.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = disco.lo; sourceTree = "<group>"; };
+		6092DD001D70197F00562BD0 /* disco.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = disco.o; sourceTree = "<group>"; };
+		6092DD011D70197F00562BD0 /* discohandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = discohandler.h; sourceTree = "<group>"; };
+		6092DD021D70197F00562BD0 /* disconodehandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = disconodehandler.h; sourceTree = "<group>"; };
+		6092DD031D70197F00562BD0 /* dns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dns.cpp; sourceTree = "<group>"; };
+		6092DD041D70197F00562BD0 /* dns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		6092DD051D70197F00562BD0 /* dns.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dns.lo; sourceTree = "<group>"; };
+		6092DD061D70197F00562BD0 /* dns.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dns.o; sourceTree = "<group>"; };
+		6092DD071D70197F00562BD0 /* error.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
+		6092DD081D70197F00562BD0 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		6092DD091D70197F00562BD0 /* error.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = error.lo; sourceTree = "<group>"; };
+		6092DD0A1D70197F00562BD0 /* error.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = error.o; sourceTree = "<group>"; };
+		6092DD0B1D70197F00562BD0 /* event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		6092DD0C1D70197F00562BD0 /* eventdispatcher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = eventdispatcher.cpp; sourceTree = "<group>"; };
+		6092DD0D1D70197F00562BD0 /* eventdispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eventdispatcher.h; sourceTree = "<group>"; };
+		6092DD0E1D70197F00562BD0 /* eventdispatcher.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = eventdispatcher.lo; sourceTree = "<group>"; };
+		6092DD0F1D70197F00562BD0 /* eventdispatcher.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = eventdispatcher.o; sourceTree = "<group>"; };
+		6092DD101D70197F00562BD0 /* eventhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eventhandler.h; sourceTree = "<group>"; };
+		6092DD111D70197F00562BD0 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		6092DD121D70197F00562BD0 /* featureneg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = featureneg.cpp; sourceTree = "<group>"; };
+		6092DD131D70197F00562BD0 /* featureneg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = featureneg.h; sourceTree = "<group>"; };
+		6092DD141D70197F00562BD0 /* featureneg.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = featureneg.lo; sourceTree = "<group>"; };
+		6092DD151D70197F00562BD0 /* featureneg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = featureneg.o; sourceTree = "<group>"; };
+		6092DD161D70197F00562BD0 /* flexoff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flexoff.cpp; sourceTree = "<group>"; };
+		6092DD171D70197F00562BD0 /* flexoff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flexoff.h; sourceTree = "<group>"; };
+		6092DD181D70197F00562BD0 /* flexoff.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = flexoff.lo; sourceTree = "<group>"; };
+		6092DD191D70197F00562BD0 /* flexoff.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = flexoff.o; sourceTree = "<group>"; };
+		6092DD1A1D70197F00562BD0 /* flexoffhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flexoffhandler.h; sourceTree = "<group>"; };
+		6092DD1B1D70197F00562BD0 /* forward.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = forward.cpp; sourceTree = "<group>"; };
+		6092DD1C1D70197F00562BD0 /* forward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = forward.h; sourceTree = "<group>"; };
+		6092DD1D1D70197F00562BD0 /* forward.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = forward.lo; sourceTree = "<group>"; };
+		6092DD1E1D70197F00562BD0 /* forward.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = forward.o; sourceTree = "<group>"; };
+		6092DD1F1D70197F00562BD0 /* gloox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gloox.cpp; sourceTree = "<group>"; };
+		6092DD201D70197F00562BD0 /* gloox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gloox.h; sourceTree = "<group>"; };
+		6092DD211D70197F00562BD0 /* gloox.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = gloox.lo; sourceTree = "<group>"; };
+		6092DD221D70197F00562BD0 /* gloox.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = gloox.o; sourceTree = "<group>"; };
+		6092DD231D70197F00562BD0 /* glooxversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glooxversion.h; sourceTree = "<group>"; };
+		6092DD241D70197F00562BD0 /* gpgencrypted.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gpgencrypted.cpp; sourceTree = "<group>"; };
+		6092DD251D70197F00562BD0 /* gpgencrypted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gpgencrypted.h; sourceTree = "<group>"; };
+		6092DD261D70197F00562BD0 /* gpgencrypted.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = gpgencrypted.lo; sourceTree = "<group>"; };
+		6092DD271D70197F00562BD0 /* gpgencrypted.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = gpgencrypted.o; sourceTree = "<group>"; };
+		6092DD281D70197F00562BD0 /* gpgsigned.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gpgsigned.cpp; sourceTree = "<group>"; };
+		6092DD291D70197F00562BD0 /* gpgsigned.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gpgsigned.h; sourceTree = "<group>"; };
+		6092DD2A1D70197F00562BD0 /* gpgsigned.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = gpgsigned.lo; sourceTree = "<group>"; };
+		6092DD2B1D70197F00562BD0 /* gpgsigned.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = gpgsigned.o; sourceTree = "<group>"; };
+		6092DD2C1D70197F00562BD0 /* inbandbytestream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inbandbytestream.cpp; sourceTree = "<group>"; };
+		6092DD2D1D70197F00562BD0 /* inbandbytestream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inbandbytestream.h; sourceTree = "<group>"; };
+		6092DD2E1D70197F00562BD0 /* inbandbytestream.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = inbandbytestream.lo; sourceTree = "<group>"; };
+		6092DD2F1D70197F00562BD0 /* inbandbytestream.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = inbandbytestream.o; sourceTree = "<group>"; };
+		6092DD301D70197F00562BD0 /* instantmucroom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = instantmucroom.cpp; sourceTree = "<group>"; };
+		6092DD311D70197F00562BD0 /* instantmucroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = instantmucroom.h; sourceTree = "<group>"; };
+		6092DD321D70197F00562BD0 /* instantmucroom.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = instantmucroom.lo; sourceTree = "<group>"; };
+		6092DD331D70197F00562BD0 /* instantmucroom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = instantmucroom.o; sourceTree = "<group>"; };
+		6092DD341D70197F00562BD0 /* iodata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iodata.cpp; sourceTree = "<group>"; };
+		6092DD351D70197F00562BD0 /* iodata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iodata.h; sourceTree = "<group>"; };
+		6092DD361D70197F00562BD0 /* iodata.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = iodata.lo; sourceTree = "<group>"; };
+		6092DD371D70197F00562BD0 /* iodata.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iodata.o; sourceTree = "<group>"; };
+		6092DD381D70197F00562BD0 /* iq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iq.cpp; sourceTree = "<group>"; };
+		6092DD391D70197F00562BD0 /* iq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iq.h; sourceTree = "<group>"; };
+		6092DD3A1D70197F00562BD0 /* iq.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = iq.lo; sourceTree = "<group>"; };
+		6092DD3B1D70197F00562BD0 /* iq.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iq.o; sourceTree = "<group>"; };
+		6092DD3C1D70197F00562BD0 /* iqhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iqhandler.h; sourceTree = "<group>"; };
+		6092DD3D1D70197F00562BD0 /* jid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jid.cpp; sourceTree = "<group>"; };
+		6092DD3E1D70197F00562BD0 /* jid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jid.h; sourceTree = "<group>"; };
+		6092DD3F1D70197F00562BD0 /* jid.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jid.lo; sourceTree = "<group>"; };
+		6092DD401D70197F00562BD0 /* jid.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jid.o; sourceTree = "<group>"; };
+		6092DD411D70197F00562BD0 /* jinglecontent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jinglecontent.cpp; sourceTree = "<group>"; };
+		6092DD421D70197F00562BD0 /* jinglecontent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jinglecontent.h; sourceTree = "<group>"; };
+		6092DD431D70197F00562BD0 /* jinglecontent.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jinglecontent.lo; sourceTree = "<group>"; };
+		6092DD441D70197F00562BD0 /* jinglecontent.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jinglecontent.o; sourceTree = "<group>"; };
+		6092DD451D70197F00562BD0 /* jinglefiletransfer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jinglefiletransfer.cpp; sourceTree = "<group>"; };
+		6092DD461D70197F00562BD0 /* jinglefiletransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jinglefiletransfer.h; sourceTree = "<group>"; };
+		6092DD471D70197F00562BD0 /* jinglefiletransfer.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jinglefiletransfer.lo; sourceTree = "<group>"; };
+		6092DD481D70197F00562BD0 /* jinglefiletransfer.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jinglefiletransfer.o; sourceTree = "<group>"; };
+		6092DD491D70197F00562BD0 /* jingleiceudp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jingleiceudp.cpp; sourceTree = "<group>"; };
+		6092DD4A1D70197F00562BD0 /* jingleiceudp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jingleiceudp.h; sourceTree = "<group>"; };
+		6092DD4B1D70197F00562BD0 /* jingleiceudp.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jingleiceudp.lo; sourceTree = "<group>"; };
+		6092DD4C1D70197F00562BD0 /* jingleiceudp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jingleiceudp.o; sourceTree = "<group>"; };
+		6092DD4D1D70197F00562BD0 /* jingleplugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jingleplugin.h; sourceTree = "<group>"; };
+		6092DD4E1D70197F00562BD0 /* jinglepluginfactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jinglepluginfactory.cpp; sourceTree = "<group>"; };
+		6092DD4F1D70197F00562BD0 /* jinglepluginfactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jinglepluginfactory.h; sourceTree = "<group>"; };
+		6092DD501D70197F00562BD0 /* jinglepluginfactory.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jinglepluginfactory.lo; sourceTree = "<group>"; };
+		6092DD511D70197F00562BD0 /* jinglepluginfactory.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jinglepluginfactory.o; sourceTree = "<group>"; };
+		6092DD521D70197F00562BD0 /* jinglesession.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jinglesession.cpp; sourceTree = "<group>"; };
+		6092DD531D70197F00562BD0 /* jinglesession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jinglesession.h; sourceTree = "<group>"; };
+		6092DD541D70197F00562BD0 /* jinglesession.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jinglesession.lo; sourceTree = "<group>"; };
+		6092DD551D70197F00562BD0 /* jinglesession.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jinglesession.o; sourceTree = "<group>"; };
+		6092DD561D70197F00562BD0 /* jinglesessionhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jinglesessionhandler.h; sourceTree = "<group>"; };
+		6092DD571D70197F00562BD0 /* jinglesessionmanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jinglesessionmanager.cpp; sourceTree = "<group>"; };
+		6092DD581D70197F00562BD0 /* jinglesessionmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jinglesessionmanager.h; sourceTree = "<group>"; };
+		6092DD591D70197F00562BD0 /* jinglesessionmanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jinglesessionmanager.lo; sourceTree = "<group>"; };
+		6092DD5A1D70197F00562BD0 /* jinglesessionmanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jinglesessionmanager.o; sourceTree = "<group>"; };
+		6092DD5B1D70197F00562BD0 /* lastactivity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lastactivity.cpp; sourceTree = "<group>"; };
+		6092DD5C1D70197F00562BD0 /* lastactivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lastactivity.h; sourceTree = "<group>"; };
+		6092DD5D1D70197F00562BD0 /* lastactivity.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = lastactivity.lo; sourceTree = "<group>"; };
+		6092DD5E1D70197F00562BD0 /* lastactivity.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = lastactivity.o; sourceTree = "<group>"; };
+		6092DD5F1D70197F00562BD0 /* lastactivityhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lastactivityhandler.h; sourceTree = "<group>"; };
+		6092DD601D70197F00562BD0 /* libgloox.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libgloox.la; sourceTree = "<group>"; };
+		6092DD611D70197F00562BD0 /* linklocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linklocal.h; sourceTree = "<group>"; };
+		6092DD621D70197F00562BD0 /* linklocalclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linklocalclient.cpp; sourceTree = "<group>"; };
+		6092DD631D70197F00562BD0 /* linklocalclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linklocalclient.h; sourceTree = "<group>"; };
+		6092DD641D70197F00562BD0 /* linklocalclient.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = linklocalclient.lo; sourceTree = "<group>"; };
+		6092DD651D70197F00562BD0 /* linklocalclient.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = linklocalclient.o; sourceTree = "<group>"; };
+		6092DD661D70197F00562BD0 /* linklocalhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linklocalhandler.h; sourceTree = "<group>"; };
+		6092DD671D70197F00562BD0 /* linklocalmanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linklocalmanager.cpp; sourceTree = "<group>"; };
+		6092DD681D70197F00562BD0 /* linklocalmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linklocalmanager.h; sourceTree = "<group>"; };
+		6092DD691D70197F00562BD0 /* linklocalmanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = linklocalmanager.lo; sourceTree = "<group>"; };
+		6092DD6A1D70197F00562BD0 /* linklocalmanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = linklocalmanager.o; sourceTree = "<group>"; };
+		6092DD6B1D70197F00562BD0 /* loghandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loghandler.h; sourceTree = "<group>"; };
+		6092DD6C1D70197F00562BD0 /* logsink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = logsink.cpp; sourceTree = "<group>"; };
+		6092DD6D1D70197F00562BD0 /* logsink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logsink.h; sourceTree = "<group>"; };
+		6092DD6E1D70197F00562BD0 /* logsink.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = logsink.lo; sourceTree = "<group>"; };
+		6092DD6F1D70197F00562BD0 /* logsink.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = logsink.o; sourceTree = "<group>"; };
+		6092DD701D70197F00562BD0 /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		6092DD711D70197F00562BD0 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		6092DD721D70197F00562BD0 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		6092DD731D70197F00562BD0 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		6092DD741D70197F00562BD0 /* md5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		6092DD751D70197F00562BD0 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		6092DD761D70197F00562BD0 /* md5.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = md5.lo; sourceTree = "<group>"; };
+		6092DD771D70197F00562BD0 /* md5.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = md5.o; sourceTree = "<group>"; };
+		6092DD781D70197F00562BD0 /* message.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = message.cpp; sourceTree = "<group>"; };
+		6092DD791D70197F00562BD0 /* message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		6092DD7A1D70197F00562BD0 /* message.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = message.lo; sourceTree = "<group>"; };
+		6092DD7B1D70197F00562BD0 /* message.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = message.o; sourceTree = "<group>"; };
+		6092DD7C1D70197F00562BD0 /* messageevent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = messageevent.cpp; sourceTree = "<group>"; };
+		6092DD7D1D70197F00562BD0 /* messageevent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageevent.h; sourceTree = "<group>"; };
+		6092DD7E1D70197F00562BD0 /* messageevent.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = messageevent.lo; sourceTree = "<group>"; };
+		6092DD7F1D70197F00562BD0 /* messageevent.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = messageevent.o; sourceTree = "<group>"; };
+		6092DD801D70197F00562BD0 /* messageeventfilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = messageeventfilter.cpp; sourceTree = "<group>"; };
+		6092DD811D70197F00562BD0 /* messageeventfilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageeventfilter.h; sourceTree = "<group>"; };
+		6092DD821D70197F00562BD0 /* messageeventfilter.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = messageeventfilter.lo; sourceTree = "<group>"; };
+		6092DD831D70197F00562BD0 /* messageeventfilter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = messageeventfilter.o; sourceTree = "<group>"; };
+		6092DD841D70197F00562BD0 /* messageeventhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageeventhandler.h; sourceTree = "<group>"; };
+		6092DD851D70197F00562BD0 /* messagefilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = messagefilter.cpp; sourceTree = "<group>"; };
+		6092DD861D70197F00562BD0 /* messagefilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messagefilter.h; sourceTree = "<group>"; };
+		6092DD871D70197F00562BD0 /* messagefilter.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = messagefilter.lo; sourceTree = "<group>"; };
+		6092DD881D70197F00562BD0 /* messagefilter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = messagefilter.o; sourceTree = "<group>"; };
+		6092DD891D70197F00562BD0 /* messagehandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messagehandler.h; sourceTree = "<group>"; };
+		6092DD8A1D70197F00562BD0 /* messagesession.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = messagesession.cpp; sourceTree = "<group>"; };
+		6092DD8B1D70197F00562BD0 /* messagesession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messagesession.h; sourceTree = "<group>"; };
+		6092DD8C1D70197F00562BD0 /* messagesession.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = messagesession.lo; sourceTree = "<group>"; };
+		6092DD8D1D70197F00562BD0 /* messagesession.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = messagesession.o; sourceTree = "<group>"; };
+		6092DD8E1D70197F00562BD0 /* messagesessionhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messagesessionhandler.h; sourceTree = "<group>"; };
+		6092DD8F1D70197F00562BD0 /* mucinvitationhandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mucinvitationhandler.cpp; sourceTree = "<group>"; };
+		6092DD901D70197F00562BD0 /* mucinvitationhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mucinvitationhandler.h; sourceTree = "<group>"; };
+		6092DD911D70197F00562BD0 /* mucinvitationhandler.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = mucinvitationhandler.lo; sourceTree = "<group>"; };
+		6092DD921D70197F00562BD0 /* mucinvitationhandler.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mucinvitationhandler.o; sourceTree = "<group>"; };
+		6092DD931D70197F00562BD0 /* mucmessagesession.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mucmessagesession.cpp; sourceTree = "<group>"; };
+		6092DD941D70197F00562BD0 /* mucmessagesession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mucmessagesession.h; sourceTree = "<group>"; };
+		6092DD951D70197F00562BD0 /* mucmessagesession.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = mucmessagesession.lo; sourceTree = "<group>"; };
+		6092DD961D70197F00562BD0 /* mucmessagesession.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mucmessagesession.o; sourceTree = "<group>"; };
+		6092DD971D70197F00562BD0 /* mucroom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mucroom.cpp; sourceTree = "<group>"; };
+		6092DD981D70197F00562BD0 /* mucroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mucroom.h; sourceTree = "<group>"; };
+		6092DD991D70197F00562BD0 /* mucroom.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = mucroom.lo; sourceTree = "<group>"; };
+		6092DD9A1D70197F00562BD0 /* mucroom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mucroom.o; sourceTree = "<group>"; };
+		6092DD9B1D70197F00562BD0 /* mucroomconfighandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mucroomconfighandler.h; sourceTree = "<group>"; };
+		6092DD9C1D70197F00562BD0 /* mucroomhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mucroomhandler.h; sourceTree = "<group>"; };
+		6092DD9D1D70197F00562BD0 /* mutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mutex.cpp; sourceTree = "<group>"; };
+		6092DD9E1D70197F00562BD0 /* mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
+		6092DD9F1D70197F00562BD0 /* mutex.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = mutex.lo; sourceTree = "<group>"; };
+		6092DDA01D70197F00562BD0 /* mutex.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mutex.o; sourceTree = "<group>"; };
+		6092DDA11D70197F00562BD0 /* mutexguard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mutexguard.h; sourceTree = "<group>"; };
+		6092DDA21D70197F00562BD0 /* nickname.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nickname.cpp; sourceTree = "<group>"; };
+		6092DDA31D70197F00562BD0 /* nickname.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nickname.h; sourceTree = "<group>"; };
+		6092DDA41D70197F00562BD0 /* nickname.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = nickname.lo; sourceTree = "<group>"; };
+		6092DDA51D70197F00562BD0 /* nickname.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = nickname.o; sourceTree = "<group>"; };
+		6092DDA61D70197F00562BD0 /* nonsaslauth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nonsaslauth.cpp; sourceTree = "<group>"; };
+		6092DDA71D70197F00562BD0 /* nonsaslauth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nonsaslauth.h; sourceTree = "<group>"; };
+		6092DDA81D70197F00562BD0 /* nonsaslauth.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = nonsaslauth.lo; sourceTree = "<group>"; };
+		6092DDA91D70197F00562BD0 /* nonsaslauth.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = nonsaslauth.o; sourceTree = "<group>"; };
+		6092DDAA1D70197F00562BD0 /* oob.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = oob.cpp; sourceTree = "<group>"; };
+		6092DDAB1D70197F00562BD0 /* oob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oob.h; sourceTree = "<group>"; };
+		6092DDAC1D70197F00562BD0 /* oob.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = oob.lo; sourceTree = "<group>"; };
+		6092DDAD1D70197F00562BD0 /* oob.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = oob.o; sourceTree = "<group>"; };
+		6092DDAE1D70197F00562BD0 /* parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
+		6092DDAF1D70197F00562BD0 /* parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		6092DDB01D70197F00562BD0 /* parser.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = parser.lo; sourceTree = "<group>"; };
+		6092DDB11D70197F00562BD0 /* parser.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = parser.o; sourceTree = "<group>"; };
+		6092DDB21D70197F00562BD0 /* prep.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = prep.cpp; sourceTree = "<group>"; };
+		6092DDB31D70197F00562BD0 /* prep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prep.h; sourceTree = "<group>"; };
+		6092DDB41D70197F00562BD0 /* prep.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = prep.lo; sourceTree = "<group>"; };
+		6092DDB51D70197F00562BD0 /* prep.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = prep.o; sourceTree = "<group>"; };
+		6092DDB61D70197F00562BD0 /* presence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = presence.cpp; sourceTree = "<group>"; };
+		6092DDB71D70197F00562BD0 /* presence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = presence.h; sourceTree = "<group>"; };
+		6092DDB81D70197F00562BD0 /* presence.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = presence.lo; sourceTree = "<group>"; };
+		6092DDB91D70197F00562BD0 /* presence.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = presence.o; sourceTree = "<group>"; };
+		6092DDBA1D70197F00562BD0 /* presencehandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = presencehandler.h; sourceTree = "<group>"; };
+		6092DDBB1D70197F00562BD0 /* privacyitem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = privacyitem.cpp; sourceTree = "<group>"; };
+		6092DDBC1D70197F00562BD0 /* privacyitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privacyitem.h; sourceTree = "<group>"; };
+		6092DDBD1D70197F00562BD0 /* privacyitem.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = privacyitem.lo; sourceTree = "<group>"; };
+		6092DDBE1D70197F00562BD0 /* privacyitem.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = privacyitem.o; sourceTree = "<group>"; };
+		6092DDBF1D70197F00562BD0 /* privacylisthandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privacylisthandler.h; sourceTree = "<group>"; };
+		6092DDC01D70197F00562BD0 /* privacymanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = privacymanager.cpp; sourceTree = "<group>"; };
+		6092DDC11D70197F00562BD0 /* privacymanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privacymanager.h; sourceTree = "<group>"; };
+		6092DDC21D70197F00562BD0 /* privacymanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = privacymanager.lo; sourceTree = "<group>"; };
+		6092DDC31D70197F00562BD0 /* privacymanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = privacymanager.o; sourceTree = "<group>"; };
+		6092DDC41D70197F00562BD0 /* privatexml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = privatexml.cpp; sourceTree = "<group>"; };
+		6092DDC51D70197F00562BD0 /* privatexml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privatexml.h; sourceTree = "<group>"; };
+		6092DDC61D70197F00562BD0 /* privatexml.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = privatexml.lo; sourceTree = "<group>"; };
+		6092DDC71D70197F00562BD0 /* privatexml.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = privatexml.o; sourceTree = "<group>"; };
+		6092DDC81D70197F00562BD0 /* privatexmlhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privatexmlhandler.h; sourceTree = "<group>"; };
+		6092DDC91D70197F00562BD0 /* pubsub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubsub.h; sourceTree = "<group>"; };
+		6092DDCA1D70197F00562BD0 /* pubsubevent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pubsubevent.cpp; sourceTree = "<group>"; };
+		6092DDCB1D70197F00562BD0 /* pubsubevent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubsubevent.h; sourceTree = "<group>"; };
+		6092DDCC1D70197F00562BD0 /* pubsubevent.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = pubsubevent.lo; sourceTree = "<group>"; };
+		6092DDCD1D70197F00562BD0 /* pubsubevent.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pubsubevent.o; sourceTree = "<group>"; };
+		6092DDCE1D70197F00562BD0 /* pubsubitem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pubsubitem.cpp; sourceTree = "<group>"; };
+		6092DDCF1D70197F00562BD0 /* pubsubitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubsubitem.h; sourceTree = "<group>"; };
+		6092DDD01D70197F00562BD0 /* pubsubitem.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = pubsubitem.lo; sourceTree = "<group>"; };
+		6092DDD11D70197F00562BD0 /* pubsubitem.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pubsubitem.o; sourceTree = "<group>"; };
+		6092DDD21D70197F00562BD0 /* pubsubmanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pubsubmanager.cpp; sourceTree = "<group>"; };
+		6092DDD31D70197F00562BD0 /* pubsubmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubsubmanager.h; sourceTree = "<group>"; };
+		6092DDD41D70197F00562BD0 /* pubsubmanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = pubsubmanager.lo; sourceTree = "<group>"; };
+		6092DDD51D70197F00562BD0 /* pubsubmanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pubsubmanager.o; sourceTree = "<group>"; };
+		6092DDD61D70197F00562BD0 /* pubsubresulthandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubsubresulthandler.h; sourceTree = "<group>"; };
+		6092DDD71D70197F00562BD0 /* receipt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = receipt.cpp; sourceTree = "<group>"; };
+		6092DDD81D70197F00562BD0 /* receipt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = receipt.h; sourceTree = "<group>"; };
+		6092DDD91D70197F00562BD0 /* receipt.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = receipt.lo; sourceTree = "<group>"; };
+		6092DDDA1D70197F00562BD0 /* receipt.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = receipt.o; sourceTree = "<group>"; };
+		6092DDDB1D70197F00562BD0 /* registration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = registration.cpp; sourceTree = "<group>"; };
+		6092DDDC1D70197F00562BD0 /* registration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registration.h; sourceTree = "<group>"; };
+		6092DDDD1D70197F00562BD0 /* registration.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = registration.lo; sourceTree = "<group>"; };
+		6092DDDE1D70197F00562BD0 /* registration.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = registration.o; sourceTree = "<group>"; };
+		6092DDDF1D70197F00562BD0 /* registrationhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registrationhandler.h; sourceTree = "<group>"; };
+		6092DDE01D70197F00562BD0 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		6092DDE11D70197F00562BD0 /* rosteritem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rosteritem.cpp; sourceTree = "<group>"; };
+		6092DDE21D70197F00562BD0 /* rosteritem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rosteritem.h; sourceTree = "<group>"; };
+		6092DDE31D70197F00562BD0 /* rosteritem.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = rosteritem.lo; sourceTree = "<group>"; };
+		6092DDE41D70197F00562BD0 /* rosteritem.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rosteritem.o; sourceTree = "<group>"; };
+		6092DDE51D70197F00562BD0 /* rosteritemdata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rosteritemdata.h; sourceTree = "<group>"; };
+		6092DDE61D70197F00562BD0 /* rosterlistener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rosterlistener.h; sourceTree = "<group>"; };
+		6092DDE71D70197F00562BD0 /* rostermanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rostermanager.cpp; sourceTree = "<group>"; };
+		6092DDE81D70197F00562BD0 /* rostermanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rostermanager.h; sourceTree = "<group>"; };
+		6092DDE91D70197F00562BD0 /* rostermanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = rostermanager.lo; sourceTree = "<group>"; };
+		6092DDEA1D70197F00562BD0 /* rostermanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rostermanager.o; sourceTree = "<group>"; };
+		6092DDEB1D70197F00562BD0 /* search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
+		6092DDEC1D70197F00562BD0 /* search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		6092DDED1D70197F00562BD0 /* search.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = search.lo; sourceTree = "<group>"; };
+		6092DDEE1D70197F00562BD0 /* search.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = search.o; sourceTree = "<group>"; };
+		6092DDEF1D70197F00562BD0 /* searchhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchhandler.h; sourceTree = "<group>"; };
+		6092DDF01D70197F00562BD0 /* sha.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha.cpp; sourceTree = "<group>"; };
+		6092DDF11D70197F00562BD0 /* sha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		6092DDF21D70197F00562BD0 /* sha.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = sha.lo; sourceTree = "<group>"; };
+		6092DDF31D70197F00562BD0 /* sha.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = sha.o; sourceTree = "<group>"; };
+		6092DDF41D70197F00562BD0 /* shim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shim.cpp; sourceTree = "<group>"; };
+		6092DDF51D70197F00562BD0 /* shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shim.h; sourceTree = "<group>"; };
+		6092DDF61D70197F00562BD0 /* shim.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = shim.lo; sourceTree = "<group>"; };
+		6092DDF71D70197F00562BD0 /* shim.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = shim.o; sourceTree = "<group>"; };
+		6092DDF81D70197F00562BD0 /* sihandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sihandler.h; sourceTree = "<group>"; };
+		6092DDF91D70197F00562BD0 /* simanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simanager.cpp; sourceTree = "<group>"; };
+		6092DDFA1D70197F00562BD0 /* simanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simanager.h; sourceTree = "<group>"; };
+		6092DDFB1D70197F00562BD0 /* simanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = simanager.lo; sourceTree = "<group>"; };
+		6092DDFC1D70197F00562BD0 /* simanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = simanager.o; sourceTree = "<group>"; };
+		6092DDFD1D70197F00562BD0 /* siprofileft.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = siprofileft.cpp; sourceTree = "<group>"; };
+		6092DDFE1D70197F00562BD0 /* siprofileft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = siprofileft.h; sourceTree = "<group>"; };
+		6092DDFF1D70197F00562BD0 /* siprofileft.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = siprofileft.lo; sourceTree = "<group>"; };
+		6092DE001D70197F00562BD0 /* siprofileft.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = siprofileft.o; sourceTree = "<group>"; };
+		6092DE011D70197F00562BD0 /* siprofilefthandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = siprofilefthandler.h; sourceTree = "<group>"; };
+		6092DE021D70197F00562BD0 /* siprofilehandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = siprofilehandler.h; sourceTree = "<group>"; };
+		6092DE031D70197F00562BD0 /* socks5bytestream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socks5bytestream.cpp; sourceTree = "<group>"; };
+		6092DE041D70197F00562BD0 /* socks5bytestream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socks5bytestream.h; sourceTree = "<group>"; };
+		6092DE051D70197F00562BD0 /* socks5bytestream.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = socks5bytestream.lo; sourceTree = "<group>"; };
+		6092DE061D70197F00562BD0 /* socks5bytestream.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = socks5bytestream.o; sourceTree = "<group>"; };
+		6092DE071D70197F00562BD0 /* socks5bytestreammanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socks5bytestreammanager.cpp; sourceTree = "<group>"; };
+		6092DE081D70197F00562BD0 /* socks5bytestreammanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socks5bytestreammanager.h; sourceTree = "<group>"; };
+		6092DE091D70197F00562BD0 /* socks5bytestreammanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = socks5bytestreammanager.lo; sourceTree = "<group>"; };
+		6092DE0A1D70197F00562BD0 /* socks5bytestreammanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = socks5bytestreammanager.o; sourceTree = "<group>"; };
+		6092DE0B1D70197F00562BD0 /* socks5bytestreamserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socks5bytestreamserver.cpp; sourceTree = "<group>"; };
+		6092DE0C1D70197F00562BD0 /* socks5bytestreamserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socks5bytestreamserver.h; sourceTree = "<group>"; };
+		6092DE0D1D70197F00562BD0 /* socks5bytestreamserver.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = socks5bytestreamserver.lo; sourceTree = "<group>"; };
+		6092DE0E1D70197F00562BD0 /* socks5bytestreamserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = socks5bytestreamserver.o; sourceTree = "<group>"; };
+		6092DE0F1D70197F00562BD0 /* softwareversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = softwareversion.cpp; sourceTree = "<group>"; };
+		6092DE101D70197F00562BD0 /* softwareversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = softwareversion.h; sourceTree = "<group>"; };
+		6092DE111D70197F00562BD0 /* softwareversion.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = softwareversion.lo; sourceTree = "<group>"; };
+		6092DE121D70197F00562BD0 /* softwareversion.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = softwareversion.o; sourceTree = "<group>"; };
+		6092DE131D70197F00562BD0 /* stanza.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stanza.cpp; sourceTree = "<group>"; };
+		6092DE141D70197F00562BD0 /* stanza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stanza.h; sourceTree = "<group>"; };
+		6092DE151D70197F00562BD0 /* stanza.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = stanza.lo; sourceTree = "<group>"; };
+		6092DE161D70197F00562BD0 /* stanza.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = stanza.o; sourceTree = "<group>"; };
+		6092DE171D70197F00562BD0 /* stanzaextension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stanzaextension.h; sourceTree = "<group>"; };
+		6092DE181D70197F00562BD0 /* stanzaextensionfactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stanzaextensionfactory.cpp; sourceTree = "<group>"; };
+		6092DE191D70197F00562BD0 /* stanzaextensionfactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stanzaextensionfactory.h; sourceTree = "<group>"; };
+		6092DE1A1D70197F00562BD0 /* stanzaextensionfactory.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = stanzaextensionfactory.lo; sourceTree = "<group>"; };
+		6092DE1B1D70197F00562BD0 /* stanzaextensionfactory.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = stanzaextensionfactory.o; sourceTree = "<group>"; };
+		6092DE1C1D70197F00562BD0 /* statisticshandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statisticshandler.h; sourceTree = "<group>"; };
+		6092DE1D1D70197F00562BD0 /* subscription.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subscription.cpp; sourceTree = "<group>"; };
+		6092DE1E1D70197F00562BD0 /* subscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subscription.h; sourceTree = "<group>"; };
+		6092DE1F1D70197F00562BD0 /* subscription.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = subscription.lo; sourceTree = "<group>"; };
+		6092DE201D70197F00562BD0 /* subscription.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = subscription.o; sourceTree = "<group>"; };
+		6092DE211D70197F00562BD0 /* subscriptionhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subscriptionhandler.h; sourceTree = "<group>"; };
+		6092DE221D70197F00562BD0 /* tag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag.cpp; sourceTree = "<group>"; };
+		6092DE231D70197F00562BD0 /* tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		6092DE241D70197F00562BD0 /* tag.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tag.lo; sourceTree = "<group>"; };
+		6092DE251D70197F00562BD0 /* tag.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tag.o; sourceTree = "<group>"; };
+		6092DE261D70197F00562BD0 /* taghandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = taghandler.h; sourceTree = "<group>"; };
+		6092DE271D70197F00562BD0 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		6092DE281D70197F00562BD0 /* tlsbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsbase.h; sourceTree = "<group>"; };
+		6092DE291D70197F00562BD0 /* tlsdefault.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsdefault.cpp; sourceTree = "<group>"; };
+		6092DE2A1D70197F00562BD0 /* tlsdefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsdefault.h; sourceTree = "<group>"; };
+		6092DE2B1D70197F00562BD0 /* tlsdefault.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsdefault.lo; sourceTree = "<group>"; };
+		6092DE2C1D70197F00562BD0 /* tlsdefault.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsdefault.o; sourceTree = "<group>"; };
+		6092DE2D1D70197F00562BD0 /* tlsgnutlsbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsgnutlsbase.cpp; sourceTree = "<group>"; };
+		6092DE2E1D70197F00562BD0 /* tlsgnutlsbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsgnutlsbase.h; sourceTree = "<group>"; };
+		6092DE2F1D70197F00562BD0 /* tlsgnutlsbase.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsgnutlsbase.lo; sourceTree = "<group>"; };
+		6092DE301D70197F00562BD0 /* tlsgnutlsbase.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsgnutlsbase.o; sourceTree = "<group>"; };
+		6092DE311D70197F00562BD0 /* tlsgnutlsclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsgnutlsclient.cpp; sourceTree = "<group>"; };
+		6092DE321D70197F00562BD0 /* tlsgnutlsclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsgnutlsclient.h; sourceTree = "<group>"; };
+		6092DE331D70197F00562BD0 /* tlsgnutlsclient.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsgnutlsclient.lo; sourceTree = "<group>"; };
+		6092DE341D70197F00562BD0 /* tlsgnutlsclient.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsgnutlsclient.o; sourceTree = "<group>"; };
+		6092DE351D70197F00562BD0 /* tlsgnutlsclientanon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsgnutlsclientanon.cpp; sourceTree = "<group>"; };
+		6092DE361D70197F00562BD0 /* tlsgnutlsclientanon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsgnutlsclientanon.h; sourceTree = "<group>"; };
+		6092DE371D70197F00562BD0 /* tlsgnutlsclientanon.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsgnutlsclientanon.lo; sourceTree = "<group>"; };
+		6092DE381D70197F00562BD0 /* tlsgnutlsclientanon.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsgnutlsclientanon.o; sourceTree = "<group>"; };
+		6092DE391D70197F00562BD0 /* tlsgnutlsserveranon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsgnutlsserveranon.cpp; sourceTree = "<group>"; };
+		6092DE3A1D70197F00562BD0 /* tlsgnutlsserveranon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsgnutlsserveranon.h; sourceTree = "<group>"; };
+		6092DE3B1D70197F00562BD0 /* tlsgnutlsserveranon.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsgnutlsserveranon.lo; sourceTree = "<group>"; };
+		6092DE3C1D70197F00562BD0 /* tlsgnutlsserveranon.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsgnutlsserveranon.o; sourceTree = "<group>"; };
+		6092DE3D1D70197F00562BD0 /* tlshandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlshandler.h; sourceTree = "<group>"; };
+		6092DE3E1D70197F00562BD0 /* tlsopensslbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsopensslbase.cpp; sourceTree = "<group>"; };
+		6092DE3F1D70197F00562BD0 /* tlsopensslbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsopensslbase.h; sourceTree = "<group>"; };
+		6092DE401D70197F00562BD0 /* tlsopensslbase.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsopensslbase.lo; sourceTree = "<group>"; };
+		6092DE411D70197F00562BD0 /* tlsopensslbase.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsopensslbase.o; sourceTree = "<group>"; };
+		6092DE421D70197F00562BD0 /* tlsopensslclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsopensslclient.cpp; sourceTree = "<group>"; };
+		6092DE431D70197F00562BD0 /* tlsopensslclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsopensslclient.h; sourceTree = "<group>"; };
+		6092DE441D70197F00562BD0 /* tlsopensslclient.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsopensslclient.lo; sourceTree = "<group>"; };
+		6092DE451D70197F00562BD0 /* tlsopensslclient.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsopensslclient.o; sourceTree = "<group>"; };
+		6092DE461D70197F00562BD0 /* tlsopensslserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsopensslserver.cpp; sourceTree = "<group>"; };
+		6092DE471D70197F00562BD0 /* tlsopensslserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsopensslserver.h; sourceTree = "<group>"; };
+		6092DE481D70197F00562BD0 /* tlsopensslserver.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsopensslserver.lo; sourceTree = "<group>"; };
+		6092DE491D70197F00562BD0 /* tlsopensslserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsopensslserver.o; sourceTree = "<group>"; };
+		6092DE4A1D70197F00562BD0 /* tlsschannel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tlsschannel.cpp; sourceTree = "<group>"; };
+		6092DE4B1D70197F00562BD0 /* tlsschannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tlsschannel.h; sourceTree = "<group>"; };
+		6092DE4C1D70197F00562BD0 /* tlsschannel.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = tlsschannel.lo; sourceTree = "<group>"; };
+		6092DE4D1D70197F00562BD0 /* tlsschannel.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tlsschannel.o; sourceTree = "<group>"; };
+		6092DE4E1D70197F00562BD0 /* uniquemucroom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uniquemucroom.cpp; sourceTree = "<group>"; };
+		6092DE4F1D70197F00562BD0 /* uniquemucroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniquemucroom.h; sourceTree = "<group>"; };
+		6092DE501D70197F00562BD0 /* uniquemucroom.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = uniquemucroom.lo; sourceTree = "<group>"; };
+		6092DE511D70197F00562BD0 /* uniquemucroom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = uniquemucroom.o; sourceTree = "<group>"; };
+		6092DE521D70197F00562BD0 /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		6092DE531D70197F00562BD0 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		6092DE541D70197F00562BD0 /* util.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = util.lo; sourceTree = "<group>"; };
+		6092DE551D70197F00562BD0 /* util.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = util.o; sourceTree = "<group>"; };
+		6092DE561D70197F00562BD0 /* vcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vcard.cpp; sourceTree = "<group>"; };
+		6092DE571D70197F00562BD0 /* vcard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vcard.h; sourceTree = "<group>"; };
+		6092DE581D70197F00562BD0 /* vcard.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcard.lo; sourceTree = "<group>"; };
+		6092DE591D70197F00562BD0 /* vcard.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = vcard.o; sourceTree = "<group>"; };
+		6092DE5A1D70197F00562BD0 /* vcardhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vcardhandler.h; sourceTree = "<group>"; };
+		6092DE5B1D70197F00562BD0 /* vcardmanager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vcardmanager.cpp; sourceTree = "<group>"; };
+		6092DE5C1D70197F00562BD0 /* vcardmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vcardmanager.h; sourceTree = "<group>"; };
+		6092DE5D1D70197F00562BD0 /* vcardmanager.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcardmanager.lo; sourceTree = "<group>"; };
+		6092DE5E1D70197F00562BD0 /* vcardmanager.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = vcardmanager.o; sourceTree = "<group>"; };
+		6092DE5F1D70197F00562BD0 /* vcardupdate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vcardupdate.cpp; sourceTree = "<group>"; };
+		6092DE601D70197F00562BD0 /* vcardupdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vcardupdate.h; sourceTree = "<group>"; };
+		6092DE611D70197F00562BD0 /* vcardupdate.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcardupdate.lo; sourceTree = "<group>"; };
+		6092DE621D70197F00562BD0 /* vcardupdate.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = vcardupdate.o; sourceTree = "<group>"; };
+		6092DE631D70197F00562BD0 /* version.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = version.rc; sourceTree = "<group>"; };
+		6092DE641D70197F00562BD0 /* xhtmlim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xhtmlim.cpp; sourceTree = "<group>"; };
+		6092DE651D70197F00562BD0 /* xhtmlim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xhtmlim.h; sourceTree = "<group>"; };
+		6092DE661D70197F00562BD0 /* xhtmlim.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = xhtmlim.lo; sourceTree = "<group>"; };
+		6092DE671D70197F00562BD0 /* xhtmlim.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = xhtmlim.o; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6092DC6D1D70197F00562BD0 = {
+			isa = PBXGroup;
+			children = (
+				6092DC731D70197F00562BD0 /* .deps */,
+				6092DC741D70197F00562BD0 /* .libs */,
+				6092DC751D70197F00562BD0 /* adhoc.cpp */,
+				6092DC761D70197F00562BD0 /* adhoc.h */,
+				6092DC771D70197F00562BD0 /* adhoc.lo */,
+				6092DC781D70197F00562BD0 /* adhoc.o */,
+				6092DC791D70197F00562BD0 /* adhoccommandprovider.h */,
+				6092DC7A1D70197F00562BD0 /* adhochandler.h */,
+				6092DC7B1D70197F00562BD0 /* adhocplugin.h */,
+				6092DC7C1D70197F00562BD0 /* amp.cpp */,
+				6092DC7D1D70197F00562BD0 /* amp.h */,
+				6092DC7E1D70197F00562BD0 /* amp.lo */,
+				6092DC7F1D70197F00562BD0 /* amp.o */,
+				6092DC801D70197F00562BD0 /* annotations.cpp */,
+				6092DC811D70197F00562BD0 /* annotations.h */,
+				6092DC821D70197F00562BD0 /* annotations.lo */,
+				6092DC831D70197F00562BD0 /* annotations.o */,
+				6092DC841D70197F00562BD0 /* annotationshandler.h */,
+				6092DC851D70197F00562BD0 /* atomicrefcount.cpp */,
+				6092DC861D70197F00562BD0 /* atomicrefcount.h */,
+				6092DC871D70197F00562BD0 /* atomicrefcount.lo */,
+				6092DC881D70197F00562BD0 /* atomicrefcount.o */,
+				6092DC891D70197F00562BD0 /* attention.cpp */,
+				6092DC8A1D70197F00562BD0 /* attention.h */,
+				6092DC8B1D70197F00562BD0 /* attention.lo */,
+				6092DC8C1D70197F00562BD0 /* attention.o */,
+				6092DC8D1D70197F00562BD0 /* base64.cpp */,
+				6092DC8E1D70197F00562BD0 /* base64.h */,
+				6092DC8F1D70197F00562BD0 /* base64.lo */,
+				6092DC901D70197F00562BD0 /* base64.o */,
+				6092DC911D70197F00562BD0 /* bookmarkhandler.h */,
+				6092DC921D70197F00562BD0 /* bookmarkstorage.cpp */,
+				6092DC931D70197F00562BD0 /* bookmarkstorage.h */,
+				6092DC941D70197F00562BD0 /* bookmarkstorage.lo */,
+				6092DC951D70197F00562BD0 /* bookmarkstorage.o */,
+				6092DC961D70197F00562BD0 /* bytestream.h */,
+				6092DC971D70197F00562BD0 /* bytestreamdatahandler.h */,
+				6092DC981D70197F00562BD0 /* bytestreamhandler.h */,
+				6092DC991D70197F00562BD0 /* capabilities.cpp */,
+				6092DC9A1D70197F00562BD0 /* capabilities.h */,
+				6092DC9B1D70197F00562BD0 /* capabilities.lo */,
+				6092DC9C1D70197F00562BD0 /* capabilities.o */,
+				6092DC9D1D70197F00562BD0 /* carbons.cpp */,
+				6092DC9E1D70197F00562BD0 /* carbons.h */,
+				6092DC9F1D70197F00562BD0 /* carbons.lo */,
+				6092DCA01D70197F00562BD0 /* carbons.o */,
+				6092DCA11D70197F00562BD0 /* chatstate.cpp */,
+				6092DCA21D70197F00562BD0 /* chatstate.h */,
+				6092DCA31D70197F00562BD0 /* chatstate.lo */,
+				6092DCA41D70197F00562BD0 /* chatstate.o */,
+				6092DCA51D70197F00562BD0 /* chatstatefilter.cpp */,
+				6092DCA61D70197F00562BD0 /* chatstatefilter.h */,
+				6092DCA71D70197F00562BD0 /* chatstatefilter.lo */,
+				6092DCA81D70197F00562BD0 /* chatstatefilter.o */,
+				6092DCA91D70197F00562BD0 /* chatstatehandler.h */,
+				6092DCAA1D70197F00562BD0 /* client.cpp */,
+				6092DCAB1D70197F00562BD0 /* client.h */,
+				6092DCAC1D70197F00562BD0 /* client.lo */,
+				6092DCAD1D70197F00562BD0 /* client.o */,
+				6092DCAE1D70197F00562BD0 /* clientbase.cpp */,
+				6092DCAF1D70197F00562BD0 /* clientbase.h */,
+				6092DCB01D70197F00562BD0 /* clientbase.lo */,
+				6092DCB11D70197F00562BD0 /* clientbase.o */,
+				6092DCB21D70197F00562BD0 /* component.cpp */,
+				6092DCB31D70197F00562BD0 /* component.h */,
+				6092DCB41D70197F00562BD0 /* component.lo */,
+				6092DCB51D70197F00562BD0 /* component.o */,
+				6092DCB61D70197F00562BD0 /* compressionbase.h */,
+				6092DCB71D70197F00562BD0 /* compressiondatahandler.h */,
+				6092DCB81D70197F00562BD0 /* compressiondefault.cpp */,
+				6092DCB91D70197F00562BD0 /* compressiondefault.h */,
+				6092DCBA1D70197F00562BD0 /* compressiondefault.lo */,
+				6092DCBB1D70197F00562BD0 /* compressiondefault.o */,
+				6092DCBC1D70197F00562BD0 /* compressionzlib.cpp */,
+				6092DCBD1D70197F00562BD0 /* compressionzlib.h */,
+				6092DCBE1D70197F00562BD0 /* compressionzlib.lo */,
+				6092DCBF1D70197F00562BD0 /* compressionzlib.o */,
+				6092DCC01D70197F00562BD0 /* config.h */,
+				6092DCC11D70197F00562BD0 /* connectionbase.h */,
+				6092DCC21D70197F00562BD0 /* connectionbosh.cpp */,
+				6092DCC31D70197F00562BD0 /* connectionbosh.h */,
+				6092DCC41D70197F00562BD0 /* connectionbosh.lo */,
+				6092DCC51D70197F00562BD0 /* connectionbosh.o */,
+				6092DCC61D70197F00562BD0 /* connectiondatahandler.h */,
+				6092DCC71D70197F00562BD0 /* connectionhandler.h */,
+				6092DCC81D70197F00562BD0 /* connectionhttpproxy.cpp */,
+				6092DCC91D70197F00562BD0 /* connectionhttpproxy.h */,
+				6092DCCA1D70197F00562BD0 /* connectionhttpproxy.lo */,
+				6092DCCB1D70197F00562BD0 /* connectionhttpproxy.o */,
+				6092DCCC1D70197F00562BD0 /* connectionlistener.h */,
+				6092DCCD1D70197F00562BD0 /* connectionsocks5proxy.cpp */,
+				6092DCCE1D70197F00562BD0 /* connectionsocks5proxy.h */,
+				6092DCCF1D70197F00562BD0 /* connectionsocks5proxy.lo */,
+				6092DCD01D70197F00562BD0 /* connectionsocks5proxy.o */,
+				6092DCD11D70197F00562BD0 /* connectiontcpbase.cpp */,
+				6092DCD21D70197F00562BD0 /* connectiontcpbase.h */,
+				6092DCD31D70197F00562BD0 /* connectiontcpbase.lo */,
+				6092DCD41D70197F00562BD0 /* connectiontcpbase.o */,
+				6092DCD51D70197F00562BD0 /* connectiontcpclient.cpp */,
+				6092DCD61D70197F00562BD0 /* connectiontcpclient.h */,
+				6092DCD71D70197F00562BD0 /* connectiontcpclient.lo */,
+				6092DCD81D70197F00562BD0 /* connectiontcpclient.o */,
+				6092DCD91D70197F00562BD0 /* connectiontcpserver.cpp */,
+				6092DCDA1D70197F00562BD0 /* connectiontcpserver.h */,
+				6092DCDB1D70197F00562BD0 /* connectiontcpserver.lo */,
+				6092DCDC1D70197F00562BD0 /* connectiontcpserver.o */,
+				6092DCDD1D70197F00562BD0 /* connectiontls.cpp */,
+				6092DCDE1D70197F00562BD0 /* connectiontls.h */,
+				6092DCDF1D70197F00562BD0 /* connectiontls.lo */,
+				6092DCE01D70197F00562BD0 /* connectiontls.o */,
+				6092DCE11D70197F00562BD0 /* connectiontlsserver.cpp */,
+				6092DCE21D70197F00562BD0 /* connectiontlsserver.h */,
+				6092DCE31D70197F00562BD0 /* connectiontlsserver.lo */,
+				6092DCE41D70197F00562BD0 /* connectiontlsserver.o */,
+				6092DCE51D70197F00562BD0 /* dataform.cpp */,
+				6092DCE61D70197F00562BD0 /* dataform.h */,
+				6092DCE71D70197F00562BD0 /* dataform.lo */,
+				6092DCE81D70197F00562BD0 /* dataform.o */,
+				6092DCE91D70197F00562BD0 /* dataformfield.cpp */,
+				6092DCEA1D70197F00562BD0 /* dataformfield.h */,
+				6092DCEB1D70197F00562BD0 /* dataformfield.lo */,
+				6092DCEC1D70197F00562BD0 /* dataformfield.o */,
+				6092DCED1D70197F00562BD0 /* dataformfieldcontainer.cpp */,
+				6092DCEE1D70197F00562BD0 /* dataformfieldcontainer.h */,
+				6092DCEF1D70197F00562BD0 /* dataformfieldcontainer.lo */,
+				6092DCF01D70197F00562BD0 /* dataformfieldcontainer.o */,
+				6092DCF11D70197F00562BD0 /* dataformitem.cpp */,
+				6092DCF21D70197F00562BD0 /* dataformitem.h */,
+				6092DCF31D70197F00562BD0 /* dataformitem.lo */,
+				6092DCF41D70197F00562BD0 /* dataformitem.o */,
+				6092DCF51D70197F00562BD0 /* dataformreported.cpp */,
+				6092DCF61D70197F00562BD0 /* dataformreported.h */,
+				6092DCF71D70197F00562BD0 /* dataformreported.lo */,
+				6092DCF81D70197F00562BD0 /* dataformreported.o */,
+				6092DCF91D70197F00562BD0 /* delayeddelivery.cpp */,
+				6092DCFA1D70197F00562BD0 /* delayeddelivery.h */,
+				6092DCFB1D70197F00562BD0 /* delayeddelivery.lo */,
+				6092DCFC1D70197F00562BD0 /* delayeddelivery.o */,
+				6092DCFD1D70197F00562BD0 /* disco.cpp */,
+				6092DCFE1D70197F00562BD0 /* disco.h */,
+				6092DCFF1D70197F00562BD0 /* disco.lo */,
+				6092DD001D70197F00562BD0 /* disco.o */,
+				6092DD011D70197F00562BD0 /* discohandler.h */,
+				6092DD021D70197F00562BD0 /* disconodehandler.h */,
+				6092DD031D70197F00562BD0 /* dns.cpp */,
+				6092DD041D70197F00562BD0 /* dns.h */,
+				6092DD051D70197F00562BD0 /* dns.lo */,
+				6092DD061D70197F00562BD0 /* dns.o */,
+				6092DD071D70197F00562BD0 /* error.cpp */,
+				6092DD081D70197F00562BD0 /* error.h */,
+				6092DD091D70197F00562BD0 /* error.lo */,
+				6092DD0A1D70197F00562BD0 /* error.o */,
+				6092DD0B1D70197F00562BD0 /* event.h */,
+				6092DD0C1D70197F00562BD0 /* eventdispatcher.cpp */,
+				6092DD0D1D70197F00562BD0 /* eventdispatcher.h */,
+				6092DD0E1D70197F00562BD0 /* eventdispatcher.lo */,
+				6092DD0F1D70197F00562BD0 /* eventdispatcher.o */,
+				6092DD101D70197F00562BD0 /* eventhandler.h */,
+				6092DD111D70197F00562BD0 /* examples */,
+				6092DD121D70197F00562BD0 /* featureneg.cpp */,
+				6092DD131D70197F00562BD0 /* featureneg.h */,
+				6092DD141D70197F00562BD0 /* featureneg.lo */,
+				6092DD151D70197F00562BD0 /* featureneg.o */,
+				6092DD161D70197F00562BD0 /* flexoff.cpp */,
+				6092DD171D70197F00562BD0 /* flexoff.h */,
+				6092DD181D70197F00562BD0 /* flexoff.lo */,
+				6092DD191D70197F00562BD0 /* flexoff.o */,
+				6092DD1A1D70197F00562BD0 /* flexoffhandler.h */,
+				6092DD1B1D70197F00562BD0 /* forward.cpp */,
+				6092DD1C1D70197F00562BD0 /* forward.h */,
+				6092DD1D1D70197F00562BD0 /* forward.lo */,
+				6092DD1E1D70197F00562BD0 /* forward.o */,
+				6092DD1F1D70197F00562BD0 /* gloox.cpp */,
+				6092DD201D70197F00562BD0 /* gloox.h */,
+				6092DD211D70197F00562BD0 /* gloox.lo */,
+				6092DD221D70197F00562BD0 /* gloox.o */,
+				6092DD231D70197F00562BD0 /* glooxversion.h */,
+				6092DD241D70197F00562BD0 /* gpgencrypted.cpp */,
+				6092DD251D70197F00562BD0 /* gpgencrypted.h */,
+				6092DD261D70197F00562BD0 /* gpgencrypted.lo */,
+				6092DD271D70197F00562BD0 /* gpgencrypted.o */,
+				6092DD281D70197F00562BD0 /* gpgsigned.cpp */,
+				6092DD291D70197F00562BD0 /* gpgsigned.h */,
+				6092DD2A1D70197F00562BD0 /* gpgsigned.lo */,
+				6092DD2B1D70197F00562BD0 /* gpgsigned.o */,
+				6092DD2C1D70197F00562BD0 /* inbandbytestream.cpp */,
+				6092DD2D1D70197F00562BD0 /* inbandbytestream.h */,
+				6092DD2E1D70197F00562BD0 /* inbandbytestream.lo */,
+				6092DD2F1D70197F00562BD0 /* inbandbytestream.o */,
+				6092DD301D70197F00562BD0 /* instantmucroom.cpp */,
+				6092DD311D70197F00562BD0 /* instantmucroom.h */,
+				6092DD321D70197F00562BD0 /* instantmucroom.lo */,
+				6092DD331D70197F00562BD0 /* instantmucroom.o */,
+				6092DD341D70197F00562BD0 /* iodata.cpp */,
+				6092DD351D70197F00562BD0 /* iodata.h */,
+				6092DD361D70197F00562BD0 /* iodata.lo */,
+				6092DD371D70197F00562BD0 /* iodata.o */,
+				6092DD381D70197F00562BD0 /* iq.cpp */,
+				6092DD391D70197F00562BD0 /* iq.h */,
+				6092DD3A1D70197F00562BD0 /* iq.lo */,
+				6092DD3B1D70197F00562BD0 /* iq.o */,
+				6092DD3C1D70197F00562BD0 /* iqhandler.h */,
+				6092DD3D1D70197F00562BD0 /* jid.cpp */,
+				6092DD3E1D70197F00562BD0 /* jid.h */,
+				6092DD3F1D70197F00562BD0 /* jid.lo */,
+				6092DD401D70197F00562BD0 /* jid.o */,
+				6092DD411D70197F00562BD0 /* jinglecontent.cpp */,
+				6092DD421D70197F00562BD0 /* jinglecontent.h */,
+				6092DD431D70197F00562BD0 /* jinglecontent.lo */,
+				6092DD441D70197F00562BD0 /* jinglecontent.o */,
+				6092DD451D70197F00562BD0 /* jinglefiletransfer.cpp */,
+				6092DD461D70197F00562BD0 /* jinglefiletransfer.h */,
+				6092DD471D70197F00562BD0 /* jinglefiletransfer.lo */,
+				6092DD481D70197F00562BD0 /* jinglefiletransfer.o */,
+				6092DD491D70197F00562BD0 /* jingleiceudp.cpp */,
+				6092DD4A1D70197F00562BD0 /* jingleiceudp.h */,
+				6092DD4B1D70197F00562BD0 /* jingleiceudp.lo */,
+				6092DD4C1D70197F00562BD0 /* jingleiceudp.o */,
+				6092DD4D1D70197F00562BD0 /* jingleplugin.h */,
+				6092DD4E1D70197F00562BD0 /* jinglepluginfactory.cpp */,
+				6092DD4F1D70197F00562BD0 /* jinglepluginfactory.h */,
+				6092DD501D70197F00562BD0 /* jinglepluginfactory.lo */,
+				6092DD511D70197F00562BD0 /* jinglepluginfactory.o */,
+				6092DD521D70197F00562BD0 /* jinglesession.cpp */,
+				6092DD531D70197F00562BD0 /* jinglesession.h */,
+				6092DD541D70197F00562BD0 /* jinglesession.lo */,
+				6092DD551D70197F00562BD0 /* jinglesession.o */,
+				6092DD561D70197F00562BD0 /* jinglesessionhandler.h */,
+				6092DD571D70197F00562BD0 /* jinglesessionmanager.cpp */,
+				6092DD581D70197F00562BD0 /* jinglesessionmanager.h */,
+				6092DD591D70197F00562BD0 /* jinglesessionmanager.lo */,
+				6092DD5A1D70197F00562BD0 /* jinglesessionmanager.o */,
+				6092DD5B1D70197F00562BD0 /* lastactivity.cpp */,
+				6092DD5C1D70197F00562BD0 /* lastactivity.h */,
+				6092DD5D1D70197F00562BD0 /* lastactivity.lo */,
+				6092DD5E1D70197F00562BD0 /* lastactivity.o */,
+				6092DD5F1D70197F00562BD0 /* lastactivityhandler.h */,
+				6092DD601D70197F00562BD0 /* libgloox.la */,
+				6092DD611D70197F00562BD0 /* linklocal.h */,
+				6092DD621D70197F00562BD0 /* linklocalclient.cpp */,
+				6092DD631D70197F00562BD0 /* linklocalclient.h */,
+				6092DD641D70197F00562BD0 /* linklocalclient.lo */,
+				6092DD651D70197F00562BD0 /* linklocalclient.o */,
+				6092DD661D70197F00562BD0 /* linklocalhandler.h */,
+				6092DD671D70197F00562BD0 /* linklocalmanager.cpp */,
+				6092DD681D70197F00562BD0 /* linklocalmanager.h */,
+				6092DD691D70197F00562BD0 /* linklocalmanager.lo */,
+				6092DD6A1D70197F00562BD0 /* linklocalmanager.o */,
+				6092DD6B1D70197F00562BD0 /* loghandler.h */,
+				6092DD6C1D70197F00562BD0 /* logsink.cpp */,
+				6092DD6D1D70197F00562BD0 /* logsink.h */,
+				6092DD6E1D70197F00562BD0 /* logsink.lo */,
+				6092DD6F1D70197F00562BD0 /* logsink.o */,
+				6092DD701D70197F00562BD0 /* macros.h */,
+				6092DD711D70197F00562BD0 /* Makefile */,
+				6092DD721D70197F00562BD0 /* Makefile.am */,
+				6092DD731D70197F00562BD0 /* Makefile.in */,
+				6092DD741D70197F00562BD0 /* md5.cpp */,
+				6092DD751D70197F00562BD0 /* md5.h */,
+				6092DD761D70197F00562BD0 /* md5.lo */,
+				6092DD771D70197F00562BD0 /* md5.o */,
+				6092DD781D70197F00562BD0 /* message.cpp */,
+				6092DD791D70197F00562BD0 /* message.h */,
+				6092DD7A1D70197F00562BD0 /* message.lo */,
+				6092DD7B1D70197F00562BD0 /* message.o */,
+				6092DD7C1D70197F00562BD0 /* messageevent.cpp */,
+				6092DD7D1D70197F00562BD0 /* messageevent.h */,
+				6092DD7E1D70197F00562BD0 /* messageevent.lo */,
+				6092DD7F1D70197F00562BD0 /* messageevent.o */,
+				6092DD801D70197F00562BD0 /* messageeventfilter.cpp */,
+				6092DD811D70197F00562BD0 /* messageeventfilter.h */,
+				6092DD821D70197F00562BD0 /* messageeventfilter.lo */,
+				6092DD831D70197F00562BD0 /* messageeventfilter.o */,
+				6092DD841D70197F00562BD0 /* messageeventhandler.h */,
+				6092DD851D70197F00562BD0 /* messagefilter.cpp */,
+				6092DD861D70197F00562BD0 /* messagefilter.h */,
+				6092DD871D70197F00562BD0 /* messagefilter.lo */,
+				6092DD881D70197F00562BD0 /* messagefilter.o */,
+				6092DD891D70197F00562BD0 /* messagehandler.h */,
+				6092DD8A1D70197F00562BD0 /* messagesession.cpp */,
+				6092DD8B1D70197F00562BD0 /* messagesession.h */,
+				6092DD8C1D70197F00562BD0 /* messagesession.lo */,
+				6092DD8D1D70197F00562BD0 /* messagesession.o */,
+				6092DD8E1D70197F00562BD0 /* messagesessionhandler.h */,
+				6092DD8F1D70197F00562BD0 /* mucinvitationhandler.cpp */,
+				6092DD901D70197F00562BD0 /* mucinvitationhandler.h */,
+				6092DD911D70197F00562BD0 /* mucinvitationhandler.lo */,
+				6092DD921D70197F00562BD0 /* mucinvitationhandler.o */,
+				6092DD931D70197F00562BD0 /* mucmessagesession.cpp */,
+				6092DD941D70197F00562BD0 /* mucmessagesession.h */,
+				6092DD951D70197F00562BD0 /* mucmessagesession.lo */,
+				6092DD961D70197F00562BD0 /* mucmessagesession.o */,
+				6092DD971D70197F00562BD0 /* mucroom.cpp */,
+				6092DD981D70197F00562BD0 /* mucroom.h */,
+				6092DD991D70197F00562BD0 /* mucroom.lo */,
+				6092DD9A1D70197F00562BD0 /* mucroom.o */,
+				6092DD9B1D70197F00562BD0 /* mucroomconfighandler.h */,
+				6092DD9C1D70197F00562BD0 /* mucroomhandler.h */,
+				6092DD9D1D70197F00562BD0 /* mutex.cpp */,
+				6092DD9E1D70197F00562BD0 /* mutex.h */,
+				6092DD9F1D70197F00562BD0 /* mutex.lo */,
+				6092DDA01D70197F00562BD0 /* mutex.o */,
+				6092DDA11D70197F00562BD0 /* mutexguard.h */,
+				6092DDA21D70197F00562BD0 /* nickname.cpp */,
+				6092DDA31D70197F00562BD0 /* nickname.h */,
+				6092DDA41D70197F00562BD0 /* nickname.lo */,
+				6092DDA51D70197F00562BD0 /* nickname.o */,
+				6092DDA61D70197F00562BD0 /* nonsaslauth.cpp */,
+				6092DDA71D70197F00562BD0 /* nonsaslauth.h */,
+				6092DDA81D70197F00562BD0 /* nonsaslauth.lo */,
+				6092DDA91D70197F00562BD0 /* nonsaslauth.o */,
+				6092DDAA1D70197F00562BD0 /* oob.cpp */,
+				6092DDAB1D70197F00562BD0 /* oob.h */,
+				6092DDAC1D70197F00562BD0 /* oob.lo */,
+				6092DDAD1D70197F00562BD0 /* oob.o */,
+				6092DDAE1D70197F00562BD0 /* parser.cpp */,
+				6092DDAF1D70197F00562BD0 /* parser.h */,
+				6092DDB01D70197F00562BD0 /* parser.lo */,
+				6092DDB11D70197F00562BD0 /* parser.o */,
+				6092DDB21D70197F00562BD0 /* prep.cpp */,
+				6092DDB31D70197F00562BD0 /* prep.h */,
+				6092DDB41D70197F00562BD0 /* prep.lo */,
+				6092DDB51D70197F00562BD0 /* prep.o */,
+				6092DDB61D70197F00562BD0 /* presence.cpp */,
+				6092DDB71D70197F00562BD0 /* presence.h */,
+				6092DDB81D70197F00562BD0 /* presence.lo */,
+				6092DDB91D70197F00562BD0 /* presence.o */,
+				6092DDBA1D70197F00562BD0 /* presencehandler.h */,
+				6092DDBB1D70197F00562BD0 /* privacyitem.cpp */,
+				6092DDBC1D70197F00562BD0 /* privacyitem.h */,
+				6092DDBD1D70197F00562BD0 /* privacyitem.lo */,
+				6092DDBE1D70197F00562BD0 /* privacyitem.o */,
+				6092DDBF1D70197F00562BD0 /* privacylisthandler.h */,
+				6092DDC01D70197F00562BD0 /* privacymanager.cpp */,
+				6092DDC11D70197F00562BD0 /* privacymanager.h */,
+				6092DDC21D70197F00562BD0 /* privacymanager.lo */,
+				6092DDC31D70197F00562BD0 /* privacymanager.o */,
+				6092DDC41D70197F00562BD0 /* privatexml.cpp */,
+				6092DDC51D70197F00562BD0 /* privatexml.h */,
+				6092DDC61D70197F00562BD0 /* privatexml.lo */,
+				6092DDC71D70197F00562BD0 /* privatexml.o */,
+				6092DDC81D70197F00562BD0 /* privatexmlhandler.h */,
+				6092DDC91D70197F00562BD0 /* pubsub.h */,
+				6092DDCA1D70197F00562BD0 /* pubsubevent.cpp */,
+				6092DDCB1D70197F00562BD0 /* pubsubevent.h */,
+				6092DDCC1D70197F00562BD0 /* pubsubevent.lo */,
+				6092DDCD1D70197F00562BD0 /* pubsubevent.o */,
+				6092DDCE1D70197F00562BD0 /* pubsubitem.cpp */,
+				6092DDCF1D70197F00562BD0 /* pubsubitem.h */,
+				6092DDD01D70197F00562BD0 /* pubsubitem.lo */,
+				6092DDD11D70197F00562BD0 /* pubsubitem.o */,
+				6092DDD21D70197F00562BD0 /* pubsubmanager.cpp */,
+				6092DDD31D70197F00562BD0 /* pubsubmanager.h */,
+				6092DDD41D70197F00562BD0 /* pubsubmanager.lo */,
+				6092DDD51D70197F00562BD0 /* pubsubmanager.o */,
+				6092DDD61D70197F00562BD0 /* pubsubresulthandler.h */,
+				6092DDD71D70197F00562BD0 /* receipt.cpp */,
+				6092DDD81D70197F00562BD0 /* receipt.h */,
+				6092DDD91D70197F00562BD0 /* receipt.lo */,
+				6092DDDA1D70197F00562BD0 /* receipt.o */,
+				6092DDDB1D70197F00562BD0 /* registration.cpp */,
+				6092DDDC1D70197F00562BD0 /* registration.h */,
+				6092DDDD1D70197F00562BD0 /* registration.lo */,
+				6092DDDE1D70197F00562BD0 /* registration.o */,
+				6092DDDF1D70197F00562BD0 /* registrationhandler.h */,
+				6092DDE01D70197F00562BD0 /* resource.h */,
+				6092DDE11D70197F00562BD0 /* rosteritem.cpp */,
+				6092DDE21D70197F00562BD0 /* rosteritem.h */,
+				6092DDE31D70197F00562BD0 /* rosteritem.lo */,
+				6092DDE41D70197F00562BD0 /* rosteritem.o */,
+				6092DDE51D70197F00562BD0 /* rosteritemdata.h */,
+				6092DDE61D70197F00562BD0 /* rosterlistener.h */,
+				6092DDE71D70197F00562BD0 /* rostermanager.cpp */,
+				6092DDE81D70197F00562BD0 /* rostermanager.h */,
+				6092DDE91D70197F00562BD0 /* rostermanager.lo */,
+				6092DDEA1D70197F00562BD0 /* rostermanager.o */,
+				6092DDEB1D70197F00562BD0 /* search.cpp */,
+				6092DDEC1D70197F00562BD0 /* search.h */,
+				6092DDED1D70197F00562BD0 /* search.lo */,
+				6092DDEE1D70197F00562BD0 /* search.o */,
+				6092DDEF1D70197F00562BD0 /* searchhandler.h */,
+				6092DDF01D70197F00562BD0 /* sha.cpp */,
+				6092DDF11D70197F00562BD0 /* sha.h */,
+				6092DDF21D70197F00562BD0 /* sha.lo */,
+				6092DDF31D70197F00562BD0 /* sha.o */,
+				6092DDF41D70197F00562BD0 /* shim.cpp */,
+				6092DDF51D70197F00562BD0 /* shim.h */,
+				6092DDF61D70197F00562BD0 /* shim.lo */,
+				6092DDF71D70197F00562BD0 /* shim.o */,
+				6092DDF81D70197F00562BD0 /* sihandler.h */,
+				6092DDF91D70197F00562BD0 /* simanager.cpp */,
+				6092DDFA1D70197F00562BD0 /* simanager.h */,
+				6092DDFB1D70197F00562BD0 /* simanager.lo */,
+				6092DDFC1D70197F00562BD0 /* simanager.o */,
+				6092DDFD1D70197F00562BD0 /* siprofileft.cpp */,
+				6092DDFE1D70197F00562BD0 /* siprofileft.h */,
+				6092DDFF1D70197F00562BD0 /* siprofileft.lo */,
+				6092DE001D70197F00562BD0 /* siprofileft.o */,
+				6092DE011D70197F00562BD0 /* siprofilefthandler.h */,
+				6092DE021D70197F00562BD0 /* siprofilehandler.h */,
+				6092DE031D70197F00562BD0 /* socks5bytestream.cpp */,
+				6092DE041D70197F00562BD0 /* socks5bytestream.h */,
+				6092DE051D70197F00562BD0 /* socks5bytestream.lo */,
+				6092DE061D70197F00562BD0 /* socks5bytestream.o */,
+				6092DE071D70197F00562BD0 /* socks5bytestreammanager.cpp */,
+				6092DE081D70197F00562BD0 /* socks5bytestreammanager.h */,
+				6092DE091D70197F00562BD0 /* socks5bytestreammanager.lo */,
+				6092DE0A1D70197F00562BD0 /* socks5bytestreammanager.o */,
+				6092DE0B1D70197F00562BD0 /* socks5bytestreamserver.cpp */,
+				6092DE0C1D70197F00562BD0 /* socks5bytestreamserver.h */,
+				6092DE0D1D70197F00562BD0 /* socks5bytestreamserver.lo */,
+				6092DE0E1D70197F00562BD0 /* socks5bytestreamserver.o */,
+				6092DE0F1D70197F00562BD0 /* softwareversion.cpp */,
+				6092DE101D70197F00562BD0 /* softwareversion.h */,
+				6092DE111D70197F00562BD0 /* softwareversion.lo */,
+				6092DE121D70197F00562BD0 /* softwareversion.o */,
+				6092DE131D70197F00562BD0 /* stanza.cpp */,
+				6092DE141D70197F00562BD0 /* stanza.h */,
+				6092DE151D70197F00562BD0 /* stanza.lo */,
+				6092DE161D70197F00562BD0 /* stanza.o */,
+				6092DE171D70197F00562BD0 /* stanzaextension.h */,
+				6092DE181D70197F00562BD0 /* stanzaextensionfactory.cpp */,
+				6092DE191D70197F00562BD0 /* stanzaextensionfactory.h */,
+				6092DE1A1D70197F00562BD0 /* stanzaextensionfactory.lo */,
+				6092DE1B1D70197F00562BD0 /* stanzaextensionfactory.o */,
+				6092DE1C1D70197F00562BD0 /* statisticshandler.h */,
+				6092DE1D1D70197F00562BD0 /* subscription.cpp */,
+				6092DE1E1D70197F00562BD0 /* subscription.h */,
+				6092DE1F1D70197F00562BD0 /* subscription.lo */,
+				6092DE201D70197F00562BD0 /* subscription.o */,
+				6092DE211D70197F00562BD0 /* subscriptionhandler.h */,
+				6092DE221D70197F00562BD0 /* tag.cpp */,
+				6092DE231D70197F00562BD0 /* tag.h */,
+				6092DE241D70197F00562BD0 /* tag.lo */,
+				6092DE251D70197F00562BD0 /* tag.o */,
+				6092DE261D70197F00562BD0 /* taghandler.h */,
+				6092DE271D70197F00562BD0 /* tests */,
+				6092DE281D70197F00562BD0 /* tlsbase.h */,
+				6092DE291D70197F00562BD0 /* tlsdefault.cpp */,
+				6092DE2A1D70197F00562BD0 /* tlsdefault.h */,
+				6092DE2B1D70197F00562BD0 /* tlsdefault.lo */,
+				6092DE2C1D70197F00562BD0 /* tlsdefault.o */,
+				6092DE2D1D70197F00562BD0 /* tlsgnutlsbase.cpp */,
+				6092DE2E1D70197F00562BD0 /* tlsgnutlsbase.h */,
+				6092DE2F1D70197F00562BD0 /* tlsgnutlsbase.lo */,
+				6092DE301D70197F00562BD0 /* tlsgnutlsbase.o */,
+				6092DE311D70197F00562BD0 /* tlsgnutlsclient.cpp */,
+				6092DE321D70197F00562BD0 /* tlsgnutlsclient.h */,
+				6092DE331D70197F00562BD0 /* tlsgnutlsclient.lo */,
+				6092DE341D70197F00562BD0 /* tlsgnutlsclient.o */,
+				6092DE351D70197F00562BD0 /* tlsgnutlsclientanon.cpp */,
+				6092DE361D70197F00562BD0 /* tlsgnutlsclientanon.h */,
+				6092DE371D70197F00562BD0 /* tlsgnutlsclientanon.lo */,
+				6092DE381D70197F00562BD0 /* tlsgnutlsclientanon.o */,
+				6092DE391D70197F00562BD0 /* tlsgnutlsserveranon.cpp */,
+				6092DE3A1D70197F00562BD0 /* tlsgnutlsserveranon.h */,
+				6092DE3B1D70197F00562BD0 /* tlsgnutlsserveranon.lo */,
+				6092DE3C1D70197F00562BD0 /* tlsgnutlsserveranon.o */,
+				6092DE3D1D70197F00562BD0 /* tlshandler.h */,
+				6092DE3E1D70197F00562BD0 /* tlsopensslbase.cpp */,
+				6092DE3F1D70197F00562BD0 /* tlsopensslbase.h */,
+				6092DE401D70197F00562BD0 /* tlsopensslbase.lo */,
+				6092DE411D70197F00562BD0 /* tlsopensslbase.o */,
+				6092DE421D70197F00562BD0 /* tlsopensslclient.cpp */,
+				6092DE431D70197F00562BD0 /* tlsopensslclient.h */,
+				6092DE441D70197F00562BD0 /* tlsopensslclient.lo */,
+				6092DE451D70197F00562BD0 /* tlsopensslclient.o */,
+				6092DE461D70197F00562BD0 /* tlsopensslserver.cpp */,
+				6092DE471D70197F00562BD0 /* tlsopensslserver.h */,
+				6092DE481D70197F00562BD0 /* tlsopensslserver.lo */,
+				6092DE491D70197F00562BD0 /* tlsopensslserver.o */,
+				6092DE4A1D70197F00562BD0 /* tlsschannel.cpp */,
+				6092DE4B1D70197F00562BD0 /* tlsschannel.h */,
+				6092DE4C1D70197F00562BD0 /* tlsschannel.lo */,
+				6092DE4D1D70197F00562BD0 /* tlsschannel.o */,
+				6092DE4E1D70197F00562BD0 /* uniquemucroom.cpp */,
+				6092DE4F1D70197F00562BD0 /* uniquemucroom.h */,
+				6092DE501D70197F00562BD0 /* uniquemucroom.lo */,
+				6092DE511D70197F00562BD0 /* uniquemucroom.o */,
+				6092DE521D70197F00562BD0 /* util.cpp */,
+				6092DE531D70197F00562BD0 /* util.h */,
+				6092DE541D70197F00562BD0 /* util.lo */,
+				6092DE551D70197F00562BD0 /* util.o */,
+				6092DE561D70197F00562BD0 /* vcard.cpp */,
+				6092DE571D70197F00562BD0 /* vcard.h */,
+				6092DE581D70197F00562BD0 /* vcard.lo */,
+				6092DE591D70197F00562BD0 /* vcard.o */,
+				6092DE5A1D70197F00562BD0 /* vcardhandler.h */,
+				6092DE5B1D70197F00562BD0 /* vcardmanager.cpp */,
+				6092DE5C1D70197F00562BD0 /* vcardmanager.h */,
+				6092DE5D1D70197F00562BD0 /* vcardmanager.lo */,
+				6092DE5E1D70197F00562BD0 /* vcardmanager.o */,
+				6092DE5F1D70197F00562BD0 /* vcardupdate.cpp */,
+				6092DE601D70197F00562BD0 /* vcardupdate.h */,
+				6092DE611D70197F00562BD0 /* vcardupdate.lo */,
+				6092DE621D70197F00562BD0 /* vcardupdate.o */,
+				6092DE631D70197F00562BD0 /* version.rc */,
+				6092DE641D70197F00562BD0 /* xhtmlim.cpp */,
+				6092DE651D70197F00562BD0 /* xhtmlim.h */,
+				6092DE661D70197F00562BD0 /* xhtmlim.lo */,
+				6092DE671D70197F00562BD0 /* xhtmlim.o */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6092DC721D70197F00562BD0 /* src */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 6092DE681D70197F00562BD0 /* Build configuration list for PBXLegacyTarget "src" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/jeidee/iosProjects/gloox/libraries/gloox-1.0.16/src";
+			dependencies = (
+			);
+			name = src;
+			passBuildSettingsInEnvironment = 1;
+			productName = src;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		6092DC6E1D70197F00562BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 6092DC711D70197F00562BD0 /* Build configuration list for PBXProject "src" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6092DC6D1D70197F00562BD0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6092DC721D70197F00562BD0 /* src */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		6092DC6F1D70197F00562BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		6092DC701D70197F00562BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		6092DE691D70197F00562BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Debug;
+		};
+		6092DE6A1D70197F00562BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6092DC711D70197F00562BD0 /* Build configuration list for PBXProject "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6092DC6F1D70197F00562BD0 /* Debug */,
+				6092DC701D70197F00562BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6092DE681D70197F00562BD0 /* Build configuration list for PBXLegacyTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6092DE691D70197F00562BD0 /* Debug */,
+				6092DE6A1D70197F00562BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6092DC6E1D70197F00562BD0 /* Project object */;
+}

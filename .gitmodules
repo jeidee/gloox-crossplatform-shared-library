@@ -1,5 +1,5 @@
 [submodule "gloox"]
-	path = gloox
+	path = gloox-1.0.14
 	url = https://github.com/jeidee/gloox.git
 [submodule "OpenSSL-for-iPhone"]
 	path = OpenSSL-for-iPhone

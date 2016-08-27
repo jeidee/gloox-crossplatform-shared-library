@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		6092DA351D6EE68200562BD0 /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		6092DA361D6EE68200562BD0 /* adhoc_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = adhoc_example.cpp; sourceTree = "<group>"; };
+		6092DA371D6EE68200562BD0 /* annotations_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = annotations_example.cpp; sourceTree = "<group>"; };
+		6092DA381D6EE68200562BD0 /* bookmarkstorage_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bookmarkstorage_example.cpp; sourceTree = "<group>"; };
+		6092DA391D6EE68200562BD0 /* bosh_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bosh_example.cpp; sourceTree = "<group>"; };
+		6092DA3A1D6EE68200562BD0 /* component_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = component_example.cpp; sourceTree = "<group>"; };
+		6092DA3B1D6EE68200562BD0 /* disco_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disco_example.cpp; sourceTree = "<group>"; };
+		6092DA3C1D6EE68200562BD0 /* e2ee_client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = e2ee_client.cpp; sourceTree = "<group>"; };
+		6092DA3D1D6EE68200562BD0 /* e2ee_server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = e2ee_server.cpp; sourceTree = "<group>"; };
+		6092DA3E1D6EE68200562BD0 /* flexoff_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flexoff_example.cpp; sourceTree = "<group>"; };
+		6092DA3F1D6EE68200562BD0 /* ft_recv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ft_recv.cpp; sourceTree = "<group>"; };
+		6092DA401D6EE68200562BD0 /* ft_send.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ft_send.cpp; sourceTree = "<group>"; };
+		6092DA411D6EE68200562BD0 /* linklocal_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linklocal_example.cpp; sourceTree = "<group>"; };
+		6092DA421D6EE68200562BD0 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		6092DA431D6EE68200562BD0 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		6092DA441D6EE68200562BD0 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		6092DA451D6EE68200562BD0 /* message_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = message_example.cpp; sourceTree = "<group>"; };
+		6092DA461D6EE68200562BD0 /* muc_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = muc_example.cpp; sourceTree = "<group>"; };
+		6092DA471D6EE68200562BD0 /* privacylist_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = privacylist_example.cpp; sourceTree = "<group>"; };
+		6092DA481D6EE68200562BD0 /* privatexml_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = privatexml_example.cpp; sourceTree = "<group>"; };
+		6092DA491D6EE68200562BD0 /* pubsub_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pubsub_example.cpp; sourceTree = "<group>"; };
+		6092DA4A1D6EE68200562BD0 /* reconnect_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reconnect_example.cpp; sourceTree = "<group>"; };
+		6092DA4B1D6EE68200562BD0 /* register_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = register_example.cpp; sourceTree = "<group>"; };
+		6092DA4C1D6EE68200562BD0 /* reset_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reset_example.cpp; sourceTree = "<group>"; };
+		6092DA4D1D6EE68200562BD0 /* roster_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster_example.cpp; sourceTree = "<group>"; };
+		6092DA4E1D6EE68200562BD0 /* vcard_example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vcard_example.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6092DA2F1D6EE68200562BD0 = {
+			isa = PBXGroup;
+			children = (
+				6092DA351D6EE68200562BD0 /* .deps */,
+				6092DA361D6EE68200562BD0 /* adhoc_example.cpp */,
+				6092DA371D6EE68200562BD0 /* annotations_example.cpp */,
+				6092DA381D6EE68200562BD0 /* bookmarkstorage_example.cpp */,
+				6092DA391D6EE68200562BD0 /* bosh_example.cpp */,
+				6092DA3A1D6EE68200562BD0 /* component_example.cpp */,
+				6092DA3B1D6EE68200562BD0 /* disco_example.cpp */,
+				6092DA3C1D6EE68200562BD0 /* e2ee_client.cpp */,
+				6092DA3D1D6EE68200562BD0 /* e2ee_server.cpp */,
+				6092DA3E1D6EE68200562BD0 /* flexoff_example.cpp */,
+				6092DA3F1D6EE68200562BD0 /* ft_recv.cpp */,
+				6092DA401D6EE68200562BD0 /* ft_send.cpp */,
+				6092DA411D6EE68200562BD0 /* linklocal_example.cpp */,
+				6092DA421D6EE68200562BD0 /* Makefile */,
+				6092DA431D6EE68200562BD0 /* Makefile.am */,
+				6092DA441D6EE68200562BD0 /* Makefile.in */,
+				6092DA451D6EE68200562BD0 /* message_example.cpp */,
+				6092DA461D6EE68200562BD0 /* muc_example.cpp */,
+				6092DA471D6EE68200562BD0 /* privacylist_example.cpp */,
+				6092DA481D6EE68200562BD0 /* privatexml_example.cpp */,
+				6092DA491D6EE68200562BD0 /* pubsub_example.cpp */,
+				6092DA4A1D6EE68200562BD0 /* reconnect_example.cpp */,
+				6092DA4B1D6EE68200562BD0 /* register_example.cpp */,
+				6092DA4C1D6EE68200562BD0 /* reset_example.cpp */,
+				6092DA4D1D6EE68200562BD0 /* roster_example.cpp */,
+				6092DA4E1D6EE68200562BD0 /* vcard_example.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6092DA341D6EE68200562BD0 /* examples */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 6092DA4F1D6EE68200562BD0 /* Build configuration list for PBXLegacyTarget "examples" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/jeidee/iosProjects/gloox/libraries/gloox-1.0.16/src/examples";
+			dependencies = (
+			);
+			name = examples;
+			passBuildSettingsInEnvironment = 1;
+			productName = examples;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		6092DA301D6EE68200562BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 6092DA331D6EE68200562BD0 /* Build configuration list for PBXProject "examples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6092DA2F1D6EE68200562BD0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6092DA341D6EE68200562BD0 /* examples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		6092DA311D6EE68200562BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		6092DA321D6EE68200562BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		6092DA501D6EE68200562BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = examples;
+			};
+			name = Debug;
+		};
+		6092DA511D6EE68200562BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = examples;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6092DA331D6EE68200562BD0 /* Build configuration list for PBXProject "examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6092DA311D6EE68200562BD0 /* Debug */,
+				6092DA321D6EE68200562BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6092DA4F1D6EE68200562BD0 /* Build configuration list for PBXLegacyTarget "examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6092DA501D6EE68200562BD0 /* Debug */,
+				6092DA511D6EE68200562BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6092DA301D6EE68200562BD0 /* Project object */;
+}
