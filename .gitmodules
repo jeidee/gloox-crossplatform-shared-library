@@ -1,0 +1,3 @@
+[submodule "gloox"]
+	path = gloox
+	url = https://github.com/jeidee/gloox.git
