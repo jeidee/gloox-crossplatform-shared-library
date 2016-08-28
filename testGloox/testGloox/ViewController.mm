@@ -35,7 +35,7 @@ void onLog(const char* tag, const char* log) {
     }
     gMc = new MsgClient();
     
-    gMc->setLoginInfo("test1@bypass", "1234", "localhost", 5223);
+    gMc->setLoginInfo("test1@bypass", "1234", "192.168.0.202", 5222);
     
     gMc->registerOnLog(&onLog);
     
